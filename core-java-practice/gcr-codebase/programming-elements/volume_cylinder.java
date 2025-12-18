@@ -1,5 +1,5 @@
 import java.util.*;
-public class VolumeOfCylinder {
+public class volume_cylinder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

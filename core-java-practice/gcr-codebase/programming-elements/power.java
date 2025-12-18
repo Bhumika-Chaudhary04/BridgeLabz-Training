@@ -1,5 +1,5 @@
 import java.util.*;
-public record Power() {
+public record power() {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 

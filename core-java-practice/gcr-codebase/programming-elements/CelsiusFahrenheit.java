@@ -1,5 +1,5 @@
 import java.util.*;
-public class Celsius_Fahrenheit {
+public class CelsiusFahrenheit {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         // take user input

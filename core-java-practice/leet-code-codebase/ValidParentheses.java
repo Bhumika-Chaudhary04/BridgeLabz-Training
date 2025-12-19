@@ -1,5 +1,5 @@
 import java.util.*;
-public class validParentheses {
+public class ValidParentheses {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         // take input from user

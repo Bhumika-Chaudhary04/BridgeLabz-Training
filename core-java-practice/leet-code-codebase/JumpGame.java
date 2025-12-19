@@ -1,5 +1,5 @@
 import java.util.*;
-public class jumpGame {
+public class JumpGame {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // enter n

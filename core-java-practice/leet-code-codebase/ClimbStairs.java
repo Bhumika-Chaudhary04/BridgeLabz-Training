@@ -1,5 +1,5 @@
 import java.util.*;
-public class climbStairs {
+public class ClimbStairs {
     
     // main function 
     public static void main(String[] args) {

@@ -77,7 +77,20 @@ core-java-practice
 - Level 2: Nested conditions and `switch`
 - Level 3: Loops (`for`, `while`, `do-while`)
 - Solved 40 level 1 , level 2 and level 3 problems.
+
 ---
+
+### Day 5 – Arrays
+**(`gcr-codebase/arrays`)**
+
+- Array declaration and initialization
+- Traversing arrays using loops
+- Level 1: Basic array problems
+- Level 2: Logic-based array problems
+- Solved 20 Level 1 and Level 2 array problems.
+
+---
+
 
 ## Purpose of This Repository
 - Maintain a structured learning record

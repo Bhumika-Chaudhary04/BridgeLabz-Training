@@ -91,6 +91,18 @@ core-java-practice
 
 ---
 
+Day 6 – Strings
+
+**(`gcr-codebase/strings`)**
+
+- String declaration and initialization
+- String input using Scanner
+- Common String methods (length(), charAt(), substring(), equals(), toUpperCase(), toLowerCase())
+- Level 1: Basic string problems
+- Level 2: Logic-based string problems
+- Solved 20 Level 1 and Level 2 string problems
+
+---
 
 ## Purpose of This Repository
 - Maintain a structured learning record

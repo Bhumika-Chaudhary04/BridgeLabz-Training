@@ -1,14 +1,14 @@
-# 🏢 BridgeLabz X Capgemini Training – Daily Progress Log 📚 (Bhumika Chaudhary)
+# 🏢 BridgeLabz Training– Daily Progress Log 📚 (Bhumika Chaudhary)
 
-## Welcome to my **BridgeLabz X Capgemini Training Repository** 🚀  
-This repository documents my **day-wise learning journey** 🗓️ during the technical training, where I practice Core Java programming and strengthen fundamental concepts, strengthen core concepts , and gain hands-on experience with tools like Git and GitHub.
+## Welcome to my **BridgeLabz Training Repository** 🚀  
+This repository documents my **day-wise learning journey** 🗓️ during the BridgeLabz technical training, where I practice Core Java programming and strengthen fundamental concepts, strengthen core concepts , and gain hands-on experience with tools like Git and GitHub.
 
 Each day reflects continuous learning , practical implementation, and skill development.
 
 ---
 
 ## 📚 Training Overview
-- Organization: **BridgeLabz X Capgemini** 
+- Organization: **BridgeLabz** 
 - Program Type: Technical Training 
 - Primary Language: Core Java 
 - Version Control: Git & GitHub
@@ -26,8 +26,10 @@ core-java-practice
 |
 ├── gcr-codebase
 |   |
-│   ├── programming-elements
+│   ├── programming-elements 
 │   ├── control-flows
+|   ├── arrays
+|   ├── strings
 │
 ├── leet-code-codebase
 │
@@ -40,7 +42,7 @@ core-java-practice
 
 ## Day-wise Progress
 
-### Day 1 – Git & GitHub Basics
+### Day 1 (16-12-2025)– Git & GitHub Basics
 - Connected a remote GitHub repository to a local project folder
 - Practiced essential Git commands:
   - `git init`, `git status`, `git add`, `git commit`
@@ -49,7 +51,7 @@ core-java-practice
 
 ---
 
-### Day 2 – Programming Basics & LeetCode 
+### Day 2 (17-12-2025)– Programming Basics & LeetCode 
 **LeetCode (`leet-code-codebase`)**
 - Solved beginner-level 5 LeetCode problems
 
@@ -61,7 +63,7 @@ core-java-practice
 
 ---
 
-### Day 3 – Programming Elements Level 2
+### Day 3 (18-12-2025)– Programming Elements Level 2
 **(`gcr-codebase/programming-elements`)**
 - Conditional statements
 - Logical operators
@@ -71,7 +73,7 @@ core-java-practice
 
 ---
 
-### Day 4 – Control Flow 
+### Day 4 (19-12-2025)– Control Flow 
 **(`gcr-codebase/control-flows`)**
 - Level 1: Basic `if`, `if-else`
 - Level 2: Nested conditions and `switch`
@@ -80,7 +82,7 @@ core-java-practice
 
 ---
 
-### Day 5 – Arrays
+### Day 5 (20-12-2025) – Arrays
 **(`gcr-codebase/arrays`)**
 
 - Array declaration and initialization
@@ -91,7 +93,7 @@ core-java-practice
 
 ---
 
-Day 6 – Strings
+### Day 6 (22-12-2025)– Strings
 
 **(`gcr-codebase/strings`)**
 
@@ -101,6 +103,18 @@ Day 6 – Strings
 - Level 1: Basic string problems
 - Level 2: Logic-based string problems
 - Solved 20 Level 1 and Level 2 string problems
+
+---
+
+### Day 7 (223-12-2025) – Advanced Strings
+
+**(`gcr-codebase/strings/advanced`)**
+- Advanced string manipulation techniques
+- Working with characters using ASCII values
+- String traversal using loops
+- Avoiding built-in methods for logic building
+- Solved 10 Advanced (Level 3) string problems
+- Solved 2 scenerio based questions as well
 
 ---
 

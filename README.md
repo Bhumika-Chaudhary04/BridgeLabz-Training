@@ -30,6 +30,7 @@ core-java-practice
 │   ├── control-flows
 |   ├── arrays
 |   ├── strings
+|   ├── methods
 │
 ├── leet-code-codebase
 │
@@ -106,7 +107,7 @@ core-java-practice
 
 ---
 
-### Day 7 (223-12-2025) – Advanced Strings
+### Day 7 (23-12-2025) – Advanced Strings
 
 **(`gcr-codebase/strings/advanced`)**
 - Advanced string manipulation techniques
@@ -117,6 +118,20 @@ core-java-practice
 - Solved 2 scenerio based questions as well
 
 ---
+
+### Day 8 (24-12-2025) – Methods & Array-Based Problem Solving
+**(`gcr-codebase/methods/advanced`)**
+- Understanding method creation and method calls
+- Writing reusable utility classes using static methods
+- Passing arrays as method parameters
+- Returning values and arrays from methods
+- Solving problems using mathematical logic (Math.random(), Math.min(), Math.max(), Math.sqrt())
+
+**LeetCode (`leet-code-codebase`)**
+- Solved medium-level 2 LeetCode problems
+
+---
+
 
 ## Purpose of This Repository
 - Maintain a structured learning record

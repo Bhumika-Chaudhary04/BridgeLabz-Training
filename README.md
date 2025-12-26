@@ -132,6 +132,21 @@ core-java-practice
 
 ---
 
+### Day 9 (25-12-2025) – Level 3 Methods & Advanced String Problem Solving
+**(`gcr-codebase/methods/level-3 & gcr-codebase/strings/advanced`)**
+
+🔹 Methods (Level 3)
+- Solved Level 3 method-based problems focusing on:
+- Method decomposition and modular design
+- Passing multiple parameters to methods
+- Returning computed values from methods
+
+🔹 Strings (Advanced Practice – 10 Questions)
+- Solved 10 advanced string problems
+- Using common String methods (length(), charAt(), substring(), equals(), toLowerCase())
+
+---
+
 
 ## Purpose of This Repository
 - Maintain a structured learning record

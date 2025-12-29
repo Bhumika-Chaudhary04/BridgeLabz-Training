@@ -26,4 +26,20 @@ public class EmployeeWageComputation {
         return random.nextInt(2) + 1;
     }
 
+    // UC3 & UC4: Get working hours using switch case
+    public static int getWorkingHours(int employeeType) {
+        int workingHours;
+        switch (employeeType) {
+            case 1:
+                workingHours=partTimeHour;
+                break;
+            case 2:
+                workingHours=fullDayHour;
+                break;
+            default:
+                workingHours=0;
+        }
+        return workingHours;
+    }
+
 }

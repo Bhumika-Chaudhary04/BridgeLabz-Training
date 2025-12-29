@@ -132,7 +132,7 @@ core-java-practice
 
 ---
 
-### Day 9 (25-12-2025) – Level 3 Methods & Advanced String Problem Solving
+### Day 9 (26-12-2025) – Level 3 Methods & Advanced String Problem Solving
 **(`gcr-codebase/methods/level-3 & gcr-codebase/strings/advanced`)**
 
 🔹 Methods (Level 3)
@@ -147,6 +147,27 @@ core-java-practice
 
 ---
 
+
+### Day 10 (29-12-2025) – Date & Time Built-in Functions + Strings & LeetCode Practice
+**(`gcr-codebase/date-time & gcr-codebase/strings/practice`)**
+
+🔹 Date & Time (Built-in Functions)
+- Solved problems using Java Date & Time API:
+- Worked with LocalDate, LocalTime, LocalDateTime, and ZonedDateTime
+- Performed operations like:fetching current date and time,date arithmetic,formatting,comparing dates
+
+🔹 Strings (Practice – 9 Questions)
+- Used built-in String methods 
+- user defined functions too
+
+🔹 Scenario-Based Problems (5)
+- Implemented 5 real-world scenarios using Date & Time concepts:
+
+🔹 LeetCode Practice (5 Problems)
+- Solved 5 LeetCode problems focusing on:
+- String manipulation
+
+---
 
 ## Purpose of This Repository
 - Maintain a structured learning record

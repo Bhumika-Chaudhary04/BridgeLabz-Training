@@ -169,6 +169,28 @@ core-java-practice
 
 ---
 
+
+### Day 11 (30-12-2025) – Scenario-Based Problems, LeetCode Practice & OOP Concepts
+**(`core-java-practice & oops-practice`)**
+
+🔹 Scenario-Based Problems (2)
+- Implemented real-world problems using Java concepts:
+- Line Comparison – Compared two lines using coordinates, calculated length, and checked equality.
+- Snake and Ladder – Simulated a two-player Snake & Ladder game with dice rolls, turn management, and win condition.
+
+🔹 LeetCode Practice (2 Problems) – Core Java
+- Solved 2 problems focusing on core Java concepts:
+- String manipulation and logic building
+- Array operations and loops
+
+🔹 OOP Concepts Practice (oops-practice branch)
+- Created new branch oops-practice with folder structure similar to core-java-practice
+- Implemented 10 Java classes focusing on Classes & Objects
+- Practiced constructor, method creation, object instantiation, and encapsulation
+
+--- 
+
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

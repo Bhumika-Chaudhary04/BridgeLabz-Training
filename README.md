@@ -190,6 +190,32 @@ core-java-practice
 
 --- 
 
+### Day 11 (30-12-2025) – OOP Concepts: Access Modifiers, Constructors & Encapsulation
+**(`oops-practice`)**
+
+
+🔹 Constructors
+- Implemented:Default constructors,Parameterized constructors,copy constructors
+- Used constructors to:Initialize object state at creation
+- Reduce dependency on setter methods
+- Observed constructor calling order in inheritance scenarios
+
+🔹 Access Modifiers Practice
+- Implemented Java programs demonstrating:
+- public, protected, private, and default access levels
+- Created parent and child classes to observe:
+- Accessibility across same package and different packages
+- Practiced real-world examples like BankAccount, Employee, and Student classes
+
+
+🔹 Encapsulation
+- Applied encapsulation principles by:
+- Making variables private
+- Providing controlled access using getter and setter methods
+- Ensured data security and integrity through validation logic inside setters
+- Designed clean and maintainable class structures following OOP best practices
+
+---
 
 ## Purpose of This Repository
 - Maintain a structured learning record

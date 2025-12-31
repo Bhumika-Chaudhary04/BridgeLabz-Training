@@ -190,7 +190,7 @@ core-java-practice
 
 --- 
 
-### Day 11 (30-12-2025) – OOP Concepts: Access Modifiers, Constructors & Encapsulation
+### Day 12 (31-12-2025) – OOP Concepts: Access Modifiers, Constructors & Encapsulation
 **(`oops-practice`)**
 
 

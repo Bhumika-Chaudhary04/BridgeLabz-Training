@@ -217,6 +217,31 @@ core-java-practice
 
 ---
 
+### Day 13 (01-01-2026) – OOP Concepts: static, final, instanceof & Problem Solving
+**(`oops-practice`)**
+
+🔹 Static Keyword
+- Class-level data sharing
+- Static method access without object creation
+
+🔹 Final Keyword
+- Variables (to create constants)
+- Methods (to prevent overriding)
+- Classes (to prevent inheritance)
+
+🔹 Instanceof Operator
+- Implement conditional logic based on object type
+
+🔹 Scenario-Based 
+- Implemented real-world problems using Java concepts : String,String Builder,replaceAll built in method
+
+🔹 LeetCode Practice
+- Solved 2 problems on Buy and Sell Stock
+- Focused on:Greedy approach,Time-efficient solutions (O(n))
+- Strengthened problem-solving and algorithmic thinking using Java
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

@@ -242,6 +242,42 @@ core-java-practice
 
 ---
 
+### Day 14 (02-01-2026) – Object-Oriented Design Principles & Scenario-Based Design
+**(`oops-practice`)**
+
+🔹 OOP Design Principles (Diagram-Oriented)
+- Applied Object-Oriented Design Principles using UML diagrams
+- Focused on design thinking before coding
+- Represented relationships between classes using:
+- Association
+- Inheritance
+- Dependency
+- Aggregation / Composition
+
+🔹UML Diagrams Used
+- Class Diagram
+- Sequence Diagram
+- Object Diagram
+
+🔹 Scenario-Based Implementations (4)
+- Library Management System
+- Applied SRP by separating Book, SearchService, and CheckoutService
+- Used abstraction to manage book availability
+
+- Online Payment System
+- Implemented OCP & DIP using a Payment interface
+- Extended support for CreditCard / UPI / Wallet without modifying existing code
+
+- Employee Management System
+- Demonstrated LSP using Employee → FullTimeEmployee / Intern
+- Ensured consistent salary calculation behavior
+
+- Notification System
+- Applied ISP by separating EmailNotification, SMSNotification interfaces
+- Classes implemented only required notification methods
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

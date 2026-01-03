@@ -278,6 +278,35 @@ core-java-practice
 
 ---
 
+### Day 15 (03-01-2026) – Inheritance Deep Dive & Problem Solving
+***(`oops-practice`)***
+
+🔹 Inheritance (Core Java – Practice Focus)
+- Solved 11 inheritance-based questions
+- Covered key concepts:
+- extends keyword usage
+- Method overriding
+- Constructor chaining (super)
+- Access modifier behavior in inheritance
+- Upcasting & polymorphic method calls
+- Analyzed IS-A relationship through real examples
+
+🔹 Scenario-Based Design (2)
+- Vehicle Management System
+- Base class Vehicle
+- Derived classes: Car, Bike, Truck
+- Demonstrated method overriding for calculateMileage()
+- Bank Account System
+- Base class Account
+- Derived classes: SavingsAccount, CurrentAccount
+
+🔹 LeetCode Practice (3)
+- Rotate Array
+- Contains Duplicate
+- Move Zeroes / Maximum Subarray (Kadane’s Algorithm)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

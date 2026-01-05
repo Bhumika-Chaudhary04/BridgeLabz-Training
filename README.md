@@ -353,6 +353,33 @@ BridgeLabz-Training/
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 ---
 
+## WEEK-3
+
+### Day 16 (05-01-2026) – Encapsulation, Polymorphism, Abstraction & Interface Design
+***(`oops-practice`)***
+
+🔹 Core OOP Concepts (Hands-on Implementation)
+- Practiced Encapsulation to protect data using: private variables , public getters & setters
+- Implemented Polymorphism through:Method overriding , Runtime method dispatch
+- Worked with Abstract Classes to:Define common behavior , Enforce method implementation in subclasses
+- Used Interfaces to:Achieve full abstraction , Support multiple inheritance of behavior
+
+🔹 Scenario-Based Implementations (4)
+- Invoice Generator
+- Cafeteria Menu App
+- Student Score Analyzer
+- Invoice Generator With Exception Handling
+
+🔹 LeetCode Practice (2)
+- Container with most water
+- Gas Station
+
+**Code links**
+- [oops-pillars](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/oops-pillars)
+- [scenario-based](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

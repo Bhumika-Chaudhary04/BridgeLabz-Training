@@ -380,6 +380,31 @@ BridgeLabz-Training/
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 
 ---
+
+### Day 17 (06-01-2026) – Collections, Strings, Arrays & Exception Handling
+**(`oops-practice`)**
+
+🔹 Core Java Concepts (Applied Practically)
+- Worked with Collections Framework: ArrayList, List
+- Practiced String handling for searching, comparison, and formatting
+- Used Arrays for structured data storage
+- Implemented custom exception handling for robust input validation
+
+🔹 Scenario-Based Implementations (4)
+- Phone Contact Organizer (Managed contacts using List<Contact>,Validated phone numbers (10 digits),Prevented duplicate entries,Implemented InvalidPhoneNumberException)
+- Online Quiz Platform – Result Processor (Stored multiple user scores in a List<Integer>,Threw InvalidQuizSubmissionException for input mismatch)
+- Student Report Generator (Stored subject-wise marks using arrays,Managed multiple student records using a List,Validated marks (0–100) with InvalidMarkException)
+- Library Management System – Book Search & Checkout (Stored book details using Arrays and Lists,Updated book availability status,Threw BookNotAvailableException when book was unavailable)
+
+🔹 LeetCode Practice (2)
+- Roman to Integer
+- Length of Last Word
+
+**Code Links**
+- [scenario-based](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

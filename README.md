@@ -405,6 +405,32 @@ BridgeLabz-Training/
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 
 ---
+
+### Day 18 (07-01-2026) – OOP Design, Interfaces, Polymorphism & Multithreading
+**(`oops-practice`)**
+
+🔹 Scenario-Based Implementations (2)
+1. Cab Booking / Ride Management System
+- Real Scenario: Users book rides, drivers accept requests, and fares are calculated dynamically.
+- Key Features:(Ride booking,Driver assignment,Fare calculation,Ride history tracking)
+- Concepts Used (OOP: User, Driver, Ride,Interface: FareCalculator,Polymorphism: Peak-hour vs Normal pricing strategy,Exception Handling: NoDriverAvailableException)
+
+2. Online Banking System
+- Real Scenario: Users manage bank accounts, perform transactions, and transfer funds concurrently.
+- Key Features(Account creation,Balance inquiry,Fund transfer,Transaction history)
+- Concepts Used:(OOP: Account, SavingsAccount, CurrentAccount,Inheritance: Account → SavingsAccount / CurrentAccount,Abstraction: BankService interface,Polymorphism: Different interest calculation logic,Exception Handling: InsufficientBalanceException,Multithreading: Concurrent transactions using synchronized methods)
+
+🔹 LeetCode Practice (2)
+- Design Parking System
+- Design Browser History
+
+**Code Links**
+- [scenario-based](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
+
+---
+
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

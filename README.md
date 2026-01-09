@@ -353,7 +353,7 @@ BridgeLabz-Training/
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)
 ---
 
-## WEEK-3
+## WEEK-4
 
 ### Day 16 (05-01-2026) – Encapsulation, Polymorphism, Abstraction & Interface Design
 ***(`oops-practice`)***
@@ -468,6 +468,38 @@ BridgeLabz-Training/
 
 **Code Links**
 - [Linked List Projects](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked-list)
+- [LeetCode Solutions](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
+
+---
+
+### Day 20 (09-01-2026) – OOPs & DSA Practice
+**(`oops-practice & dsa-practice`)**
+
+🔹 OOPs Practice (oops-practice)
+
+1. Hospital Patient Management System (CRUD)
+- Concepts Used:
+- Classes: Patient, Doctor, Bill
+- Encapsulation using properties
+- Abstraction using IPayable interface
+- Inheritance: InPatient, OutPatient → Patient
+- Polymorphism using overridden displayInfo()
+
+2. Vehicle Rental Application (CRUD)
+- Concepts Used:
+- Classes: Vehicle, Bike, Car, Truck, Customer
+- Inheritance for vehicle types
+- protected fields in base class
+- Interface IRentable with calculateRent(int days)
+- Polymorphic rent calculation
+
+🔹 DSA Practice (dsa-practice)
+🔹 LeetCode Practice (2)
+- Middle of the Linked List – LeetCode 876
+- Linked List Cycle Detection – LeetCode 141
+
+**Code Links**
+- [scenario-based](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 - [LeetCode Solutions](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
 
 ---

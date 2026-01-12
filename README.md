@@ -504,6 +504,55 @@ BridgeLabz-Training/
 
 ---
 
+### Day 21 (12-01-2026) – OOPs Practice
+**(`oops-practice`)**
+
+1. Flight Booking System
+- A basic flight booking application where users can search available flights, book tickets, and view their booking details.
+- Search available flights
+- Book flights
+- View booking details
+- Manage user bookings
+
+2. E-Commerce Order Management System
+- Users browse products, place orders, cancel them, and track delivery status in an online shopping platform.
+- Product catalog management
+- Order placement
+- Order cancellation
+- Payment processing
+
+3. Student Course Registration System
+- Students register for courses in a college portal, enroll in available courses, drop courses when required, and manage their academic information.
+- Student registration
+- Course enrollment
+- Course drop
+- View enrolled courses
+
+4. Inventory Management System
+- Warehouse staff manage products, update stock, and get low-stock alerts.
+- Add / remove products
+- Update stock
+- Stock monitoring
+
+5. Online Examination System
+- An online platform where students attempt exams, submit answers within a given time, and receive results based on the evaluation method.
+- Create exams
+- Enroll students
+- Submit answers
+- Generate results
+
+6. Hotel Reservation System
+- Hotels manage room availability, handle reservations, perform check-ins and check-outs, and generate invoices for guests.
+- Room management
+- Reservation booking
+- Check-in and check-out
+- Invoice generation
+
+**Code Links**
+- [scenario-based](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

@@ -553,6 +553,35 @@ BridgeLabz-Training/
 
 ---
 
+### Day 22 (13-01-2026) – OOPs Practice
+**(`oops-practice`)**
+
+1. Hospital Management System
+- Hospitals manage patients, doctors, appointments, and medical records on a daily basis to ensure smooth healthcare operations.
+- Add / update / delete patients
+- Doctor management
+- Appointment booking and cancellation
+- View patient medical history
+
+2. Digital Wallet System
+- Users create digital wallets, add money, transfer funds, and track transaction history securely.
+- Wallet creation
+- Add money / withdraw money
+- Fund transfer
+- Transaction history tracking
+
+3. Online Voting System
+- A secure online platform where registered voters cast votes during an election and results are declared transparently.
+- Voter registration
+- Candidate management
+- Vote casting
+- Result declaration
+
+**Code Links**
+- [scenario-based](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

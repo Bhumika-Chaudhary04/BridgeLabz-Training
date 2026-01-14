@@ -582,6 +582,34 @@ BridgeLabz-Training/
 
 ---
 
+### Day 23 (14-01-2026) – Stacks, Queues & Hash Maps Practice
+**(`dsa-practice`)**
+
+🔹 Sample Problems for Stacks and Queues
+1. Implement a Queue Using Stacks
+2. Sort a Stack Using Recursion
+3. Stock Span Problem
+4. Sliding Window Maximum
+5. Circular Tour Problem
+
+🔹 Sample Problems for Hash Maps & Hash Functions
+1. Find All Subarrays with Zero Sum
+2. Check for a Pair with Given Sum in an Array
+3. Longest Consecutive Sequence
+4. Implement a Custom Hash Map
+5. Two Sum Problem
+
+🔹 LeetCode Practice (2)
+- Two Sum – LeetCode 1
+- Ransom Note – LeetCode 383
+
+**Code Links**
+- [stack-queue](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stack-queue)
+- [hashmap](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/hashmap)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals
@@ -589,6 +617,7 @@ BridgeLabz-Training/
 - Prepare for technical assessments and interviews
 
 ---
+
 
 ## 👩‍💻 Author
 **Bhumika Chaudhary**

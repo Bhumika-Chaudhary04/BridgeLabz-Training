@@ -610,6 +610,30 @@ BridgeLabz-Training/
 
 ---
 
+### Day 24 (15-01-2026) – Sorting Algorithms & LeetCode Practice
+**(`dsa-practice`)**
+
+🔹 Sorting Algorithms Practice
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+- Count Sort
+
+🔹 LeetCode Practice (2)
+1. Next Greater Element I – LeetCode 496
+2. Daily Temperatures – LeetCode 739
+
+
+**Code Links**
+- [sorting-algorithms](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting-algorithms)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
+
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

@@ -504,6 +504,8 @@ BridgeLabz-Training/
 
 ---
 
+## WEEK-5
+
 ### Day 21 (12-01-2026) – OOPs Practice
 **(`oops-practice`)**
 
@@ -631,6 +633,39 @@ BridgeLabz-Training/
 - [sorting-algorithms](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting-algorithms)
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
 
+
+---
+
+### Day 25 (16-01-2026) – Java I/O & String Manipulation Practice
+**(`dsa-practice`)**
+
+🔹 StringBuilder Practice
+- Reverse a String Using StringBuilder
+- Remove Duplicates from a String Using StringBuilder
+
+🔹 StringBuffer Practice
+- Concatenate Strings Efficiently Using StringBuffer
+- Compare StringBuffer and StringBuilder for Concatenation
+
+🔹 FileReader Practice
+- Read a File Line by Line
+- Count Occurrences of a Word in a File
+
+🔹 InputStreamReader Practice
+- Convert Byte Stream to Character Stream
+- Read User Input and Write to File
+
+🔹 Challenge Problem: Compare StringBuilder, StringBuffer, FileReader, and InputStreamReader
+
+🔹 LeetCode Practice
+- Reverse Words in a String – LeetCode 151
+- Add Strings – LeetCode 415
+
+
+**Code Links**
+- [stringbuilder_stringbuffer](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stringbuilder_stringbuffer)
+- [file_reader_input_stream_reader](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/file_reader_input_Stream_reader)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
 
 ---
 

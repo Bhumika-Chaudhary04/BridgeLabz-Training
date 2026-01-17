@@ -45,6 +45,25 @@ public class ContactPerson {
 	public String getEmail() {
 		return email;
 	}
+        //setter methods so that details can be edited for UC3
+        public void setAddress(String address) {
+            this.address = address;
+        }
+        public void setCity(String city) {
+             this.city = city;
+        }
+        public void setState(String state) {
+             this.state = state;
+        }
+        public void setZip(String zipCode) {
+            this.zipCode = zipCode;
+        }
+        public void setPhoneNumber(String phoneNumber) {
+            this.phoneNumber = phoneNumber;
+        }
+        public void setEmail(String email) {
+            this.email = email;
+        }
 	//method to display contact details of a person
 	public void displayContact() {
 		System.out.println("----------Contact Details of a Person-----------");

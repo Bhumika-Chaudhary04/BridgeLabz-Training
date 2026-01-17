@@ -29,6 +29,14 @@ public class AddressBookMain {
         addressBook.addContact(person);
         //display contacts
         addressBook.displayContacts();
+        //edit contact
+        System.out.print("\nEnter first name of the contact to edited : ");
+        firstName=sc.nextLine();
+        System.out.print("Enter last name of the contact to be edited : ");
+        lastName=sc.nextLine();
+        //UC3:edit contact
+        addressBook.editContact(firstName, lastName);
+        addressBook.displayContacts();
         sc.close();
     }
 }

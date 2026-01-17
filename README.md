@@ -669,6 +669,40 @@ BridgeLabz-Training/
 
 ---
 
+### Day 26 (17-01-2026) – Linear & Binary Search , Address Book (3 Use Cases) & leetcode problem
+**(`dsa-practice`)**
+
+🔹 Linear Search Practice
+- Search for the First Negative Number
+- Search for a Specific Word in a List of Sentences
+
+🔹 Binary Search Practice
+- Find the Rotation Point in a Rotated Sorted Array
+- Find a Peak Element in an Array
+- Search for a Target Value in a 2D Sorted Matrix
+- Find First and Last Occurrence of an Element
+
+🔹 Challenge Problem (Linear + Binary Search)
+- Linear Search: Find the first missing positive integer.
+- Binary Search: Find the index of a target in a sorted array.
+
+🔹 Use Cases – Address Book
+- UC1 – Create Contacts (Add first/last name, address, city, state, zip, phone, email)
+- UC2 – Add a New Contact (Add person details via console using AddressBookMain)
+- UC3 – Edit Existing Contact (Edit contact details via console using person’s information)
+
+🔹 LeetCode Practice
+- Binary Search – LeetCode 704
+- Search Insert Position – LeetCode 35
+
+
+**Code Links**
+- [linearsearch_binarysearch](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linearsearch_binarysearch)
+- [AddressBook](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/AddressBook)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

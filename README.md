@@ -669,8 +669,9 @@ BridgeLabz-Training/
 
 ---
 
+
 ### Day 26 (17-01-2026) – Linear & Binary Search , Address Book (3 Use Cases) & leetcode problem
-**(`dsa-practice`)**
+**(`oops-practice`)**
 
 🔹 Linear Search Practice
 - Search for the First Negative Number
@@ -702,6 +703,31 @@ BridgeLabz-Training/
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)
 
 ---
+
+### Day 27 (19-01-2026) – Address Book (4,5 Use Case) & Runtime Analysis
+**(`dsa-practice`)**
+
+🔹 Use Cases – Address Book
+- UC4 – Delete a Contact: Delete a person using person’s name via console
+- UC5 – Add Multiple Contacts: Add multiple contacts one at a time; use Collection class to maintain multiple contact persons
+
+
+🔹 Runtime Analysis – DSA Problems
+- Search a Target in a Large Dataset using linear and binary search
+- Sorting Large Data Efficiently using bubble sort , merge sort and quick sort
+- String Concatenation Performance using strings ,string builder and string buffer
+- Large File Reading Efficiency using file reader and input stream reader
+- Recursive vs Iterative Fibonacci computation
+- Comparing Different Data Structures for Searching
+
+
+**Code Links**
+- [AddressBook](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/AddressBook)
+- [RuntimeAnalysisBigONotation](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/runtime_analysis_big_o_notation)
+
+
+---
+
 
 ## Purpose of This Repository
 - Maintain a structured learning record

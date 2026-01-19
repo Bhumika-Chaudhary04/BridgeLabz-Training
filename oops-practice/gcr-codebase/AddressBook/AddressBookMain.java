@@ -10,33 +10,40 @@ public class AddressBookMain {
         // AddressBook
         AddressBook addressBook = new AddressBook();
         // console input
-        System.out.print("Enter First Name: ");
-        String firstName = sc.nextLine();
-        System.out.print("Enter Last Name: ");
-        String lastName = sc.nextLine();
-        System.out.print("Enter Address: ");
-        String address = sc.nextLine();
-        System.out.print("Enter City: ");
-        String city = sc.nextLine();
-        System.out.print("Enter State: ");
-        String state = sc.nextLine();
-        System.out.print("Enter Zip: ");
-        String zip = sc.nextLine();
-        System.out.print("Enter Phone Number: ");
-        String phoneNumber = sc.nextLine();
-        System.out.print("Enter Email: ");
-        String email = sc.nextLine();
-        // create contact object
-        ContactPerson person = new ContactPerson(firstName, lastName, address, city, state, zip, phoneNumber, email);
-        // add contact to addressBook
-        addressBook.addContact(person);
+        // UC5:using console to add multiple contacts
+        int choice = 1;
+        do {
+            System.out.print("Enter First Name: ");
+            String firstName = sc.nextLine();
+            System.out.print("Enter Last Name: ");
+            String lastName = sc.nextLine();
+            System.out.print("Enter Address: ");
+            String address = sc.nextLine();
+            System.out.print("Enter City: ");
+            String city = sc.nextLine();
+            System.out.print("Enter State: ");
+            String state = sc.nextLine();
+            System.out.print("Enter Zip: ");
+            String zip = sc.nextLine();
+            System.out.print("Enter Phone Number: ");
+            String phoneNumber = sc.nextLine();
+            System.out.print("Enter Email: ");
+            String email = sc.nextLine();
+            // create contact object
+            ContactPerson person = new ContactPerson(firstName, lastName, address, city, state, zip, phoneNumber,
+                    email);
+            // add contact to addressBook
+            addressBook.addContact(person);
+            System.out.println("Do you want to add another contact ? Choice(Yes or No) : ");
+            choice = sc.nextLine().equalsIgnoreCase("Yes") ? 1 : 0;
+        } while (choice == 1);
         // display contacts
         addressBook.displayContacts();
         // edit contact
         System.out.print("\nEnter first name of the contact to edited : ");
-        firstName = sc.nextLine();
+        String firstName = sc.nextLine();
         System.out.print("Enter last name of the contact to be edited : ");
-        lastName = sc.nextLine();
+        String lastName = sc.nextLine();
         // UC3:edit contact
         addressBook.editContact(firstName, lastName);
         addressBook.displayContacts();

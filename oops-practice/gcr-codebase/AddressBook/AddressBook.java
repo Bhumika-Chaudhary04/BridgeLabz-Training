@@ -99,6 +99,7 @@ public class AddressBook {
 	}
 
 	public void displayContacts() {
+		System.out.println("------Displaying contact details------");
 		for (ContactPerson person : contactList) {
 			person.displayContact();
 		}

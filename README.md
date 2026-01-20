@@ -728,6 +728,25 @@ BridgeLabz-Training/
 
 ---
 
+### Day 28 (20-01-2026) – Scenario Based Questions
+**(`dsa-practice`)**
+
+🔹 Scenario Based Questions
+- BankingAccountHierarchy – Added implementation of banking account hierarchy with classes and inheritance
+- BookShelf – Added implementation of book shelf with add, remove, and display book functionality
+- BrowserBuddy – Added implementation of browser buddy with tab management and history tracking
+- CinemaTime – Added implementation of cinema time booking system with seat selection and timing management
+- EmployeeRole – Added implementation of employee roles with role assignment and hierarchy
+- ExamProctor – Added implementation of exam proctor system with scheduling and monitoring features
+- ParcelTracker – Added implementation of parcel tracker with status update and delivery history
+- TrafficManager – Added implementation of traffic manager with vehicle tracking and congestion management
+
+**Code Links**
+- [DSAScenarioBased](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+
+---
+
 
 ## Purpose of This Repository
 - Maintain a structured learning record

@@ -12,7 +12,7 @@ public class ContactPerson {
 	private String email;
 
 	// constructor to initialize object
-	ContactPerson(String firstName, String lastName, String address, String city, String state, String zipCode,
+	public ContactPerson(String firstName, String lastName, String address, String city, String state, String zipCode,
 			String phoneNumber, String email) {
 		this.firstName = firstName;
 		this.lastName = lastName;

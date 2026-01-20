@@ -4,10 +4,16 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AddressBook {
+	private String addressBookName;
 	private ArrayList<ContactPerson> contactList;
 
-	public AddressBook() {
+	public AddressBook(String addressBookName) {
+		this.addressBookName = addressBookName;
 		contactList = new ArrayList<>();
+	}
+
+	public String getAddressBookName() {
+		return addressBookName;
 	}
 
 	// UC1:add contact

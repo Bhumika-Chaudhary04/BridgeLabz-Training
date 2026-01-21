@@ -747,6 +747,25 @@ BridgeLabz-Training/
 
 ---
 
+### Day 29 (21-01-2026) – Collections & Generics Practice
+**(`collections-practice`)**
+
+🔹 Generic & Collection-Based Systems
+- Smart Warehouse Management System ( Implemented a type-safe warehouse system to manage different item categories like Electronics, Groceries, and Furniture.)
+- Dynamic Online Marketplace ( Built a generic product catalog supporting Books, Clothing, and Gadgets. ) 
+- Multi-Level University Course Management System ( Developed a course management system for multiple departments and evaluation styles.)
+- Personalized Meal Plan Generator ( Designed a meal plan generator supporting Vegetarian, Vegan, Keto, and High-Protein meal plans.)
+- AI-Driven Resume Screening System ( Developed a resume screening system for roles such as Software Engineer, Data Scientist, and Product Manager.)
+
+🔹 LeetCode – Array & Collection Problems
+- Contains Duplicate - Leetcode 217
+- Intersection of Two Arrays - Leetcode 349
+
+**Code Links**
+- [generics](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/generics)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/leet-code-codebase)
+
+---
 
 ## Purpose of This Repository
 - Maintain a structured learning record

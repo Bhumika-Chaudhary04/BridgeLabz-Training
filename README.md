@@ -767,6 +767,48 @@ BridgeLabz-Training/
 
 ---
 
+### Day 30 (22-01-2026) – List, Set, Queue & Map Interface Practice
+**(`collections-practice`)**
+
+🔹 List Interface
+- Reverse a List
+- Find Frequency of Elements
+- Rotate Elements in a List
+- Remove Duplicates While Preserving Order
+- Find the Nth Element from the End
+
+🔹 Set Interface
+- Check if Two Sets Are Equal
+- Union and Intersection of Sets
+- Symmetric Difference
+- Convert Set to Sorted List
+- Subset Check
+
+🔹 Queue Interface
+- Reverse a Queue
+- Generate Binary Numbers
+- Hospital Triage System
+- Stack Using Queues
+- Circular Buffer Simulation
+
+🔹 Map Interface
+- Word Frequency Counter
+- Invert a Map
+- Find Key with Highest Value
+- Merge Two Maps
+- Group Objects by Property
+
+🔹 LeetCode – Collections Based Problems
+- Kth Largest Element in an Array – LeetCode 215
+- Find Median from Data Stream – LeetCode 295
+
+**Code Links**
+- [collections](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/collections)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/leet-code-codebase)
+
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

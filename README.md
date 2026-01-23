@@ -809,6 +809,22 @@ BridgeLabz-Training/
 
 ---
 
+### Day 31 (23-01-2026) – Scenario-Based Collections (Set/Map) & HashMap LeetCode Practice
+**(`collections-practice`)**
+
+🔹java_streams
+- Implemented file read/write using different I/O streams
+- Used buffering for optimized file processing
+- Applied serialization and deserialization
+- Implemented inter-thread communication using streams
+- Handled checked exceptions effectively
+- Processed large files safely and efficiently
+
+**Code Links**
+- [streams](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/streams)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

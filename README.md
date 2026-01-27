@@ -825,6 +825,28 @@ BridgeLabz-Training/
 
 ---
 
+### Day 32 (27-01-2026) – Exception Handling, Core Java Scenarios
+**(`collections-practice & core-java-practice`)**
+
+🔹 Java Exception Handling
+- Practiced checked, unchecked, and custom exceptions
+- Implemented try–catch, multiple catch blocks, finally, and try-with-resources
+- Demonstrated exception propagation
+- Used custom exceptions for validation and error handling
+
+🔹 Core Java Scenario-Based Program
+- Implemented LexicalTwist scenario-based Java program
+- Added input validation and reverse-word checking
+- Performed vowel and consonant analysis
+- Produced conditional output based on string characteristics
+
+**Code Links**
+- [exceptions](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/exceptions)
+- [Lexical Twist](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/core-java-practice/core-java-practice/scenario-based/LexicalTwist.java)
+
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

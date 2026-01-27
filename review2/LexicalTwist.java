@@ -4,9 +4,17 @@ public class LexicalTwist {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the first word : ");
-		String word1=sc.next();
+		String word1=sc.nextLine();
+		if(word1.trim().contains(" ")) {
+			System.out.println(word1+" is an invalid word");
+			return;
+		}
 		System.out.println("Enter the second word : ");
 		String word2=sc.next();
+		if(word2.trim().contains(" ")) {
+			System.out.println(word2+" is an invalid word");
+			return;
+		}
 		boolean check=checkWords(word1,word2);
 		if(check) {
 			String word3=reverse(word1);
@@ -79,7 +87,7 @@ public class LexicalTwist {
 			while(k<word.length() && count<2) {
 				if(word.charAt(k)=='A' || word.charAt(k)=='E' || word.charAt(k)=='I' || word.charAt(k)=='O' || word.charAt(k)=='U') {
 					if(count==0) {
-						System.out.println(word.charAt(k));
+						System.out.print(word.charAt(k));
 						first=word.charAt(k);
 						count++;
 					}
@@ -101,7 +109,7 @@ public class LexicalTwist {
 			while(k<word.length() && count<2) {
 				if(word.charAt(k)!='A' && word.charAt(k)!='E' && word.charAt(k)!='I' && word.charAt(k)!='O' && word.charAt(k)!='U') {
 					if(count==0) {
-						System.out.println(word.charAt(k));
+						System.out.print(word.charAt(k));
 						first=word.charAt(k);
 						count++;
 					}

@@ -63,6 +63,48 @@ class SinglyLinkedListImplementation {
 		nn.next=temp.next;
 		temp.next=nn;
 	}
+	static void deleteFromBegin() {
+		if(head==null) {
+			System.out.println("Node could not be deleted because linked list is empty.");
+			return;
+		}
+		head=head.next;
+	}
+	static void deleteFromEnd() {
+		if(head==null || head.next==null) {
+			deleteFromBegin();
+			return;
+		}
+		Node temp=head;
+		while(temp.next!=null && temp.next.next!=null) {
+			temp=temp.next;
+		}
+		temp.next=temp.next.next;
+	}
+	static void deleteFromMiddle() {
+		if (head==null) {
+	        System.out.println("Node could not be deleted because linked list is empty.");
+	        return;
+	    }
+	    if (head.next==null) {
+	        deleteFromBegin();
+	        return;
+	    }
+	    int size=findSize();
+	    int mid;
+	    if (size%2==0) {
+	        mid=size/2;
+	    } else {
+	        mid=(size/2)+1;
+	    }
+	    Node temp=head;
+	    int c=0;
+	    while (c<mid-2) {
+	        temp=temp.next;
+	        c++;
+	    }
+	    temp.next = temp.next.next;
+	}
 	static void display() {
 		if(head==null) {
 			System.out.println("Empty linked list");
@@ -88,7 +130,9 @@ public class SinglyLinkedList{
 		sl.insertAtBegin(3);
 		sl.insertAtMiddle(4);
 		sl.insertAtMiddle(5);
-		sl.display();
-		
+		sl.deleteFromBegin();
+		sl.deleteFromEnd();
+		sl.deleteFromMiddle();
+		sl.display();		
 	}
 }

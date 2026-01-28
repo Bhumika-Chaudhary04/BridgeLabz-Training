@@ -922,6 +922,37 @@ BridgeLabz-Training/
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/leet-code-codebase)
 
 ---
+
+### Day 34 (29-01-2026) – Regular Expressions
+**(`collections-practice`)**
+
+🔹Validation Problems
+1. Validate a Username
+2. Validate a License Plate Number
+3. Validate a Hex Color Code
+
+🔹Extraction Problems
+4. Extract All Email Addresses from a Text
+5. Extract All Capitalized Words from a Sentence
+6. Extract Dates in dd/mm/yyyy Format
+7. Extract Links from a Web Page
+
+🔹Replace and Modify Strings
+8. Replace Multiple Spaces with a Single Space
+9. Censor Bad Words in a Sentence
+
+🔹Advanced Problems
+10. Validate an IP Address
+11. Validate a Credit Card Number (Visa, MasterCard, etc.)
+12. Extract Programming Language Names from a Text
+13. Extract Currency Values from a Text
+14. Find Repeating Words in a Sentence
+15. Validate a Social Security Number (SSN)
+
+**Code Links**
+- [Regex](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/regex)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

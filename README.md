@@ -34,17 +34,51 @@ BridgeLabz-Training/
 │   ├── gcr-codebase/            
 │   |      ├── class-and-object/
 |   |      ├── constructors-access-modifiers/
-|   |      ├── this-static-final/
-|   |      ├── this-static-final-instanceof-keywords/
-|   |      ├── inheritance/
+|   |      |── inheritance/ 
 |   |      ├── oops-pillars/
-│   |    
-│   ├── scenario-based/          # Scenario-based & real-world logic problems
+|   |      ├── object-oriented-design-principles/
+|   |      ├── this-static-final-instanceof-keywords/
+|   |      
+|   |
+|   ├── scenario-based/          # Scenario-based & real-world logic problems
 │   └── leetcode-code-codebase/  # Daily DSA practice 
 |
-| 
+├── dsa-practice/
+│   ├── gcr-codebase/
+|   |      ├── runtime_analysis_big_o_notation/
+|   |      ├── file_reader_input_stream_reader/
+|   |      ├── hashmap/
+|   |      ├── linearsearch_binarysearch/
+|   |      ├── linked-list/
+|   |      ├── sorting-algorithms/
+|   |      ├── stack-queue/
+|   |      ├── stringbuilder_stringbuffer/
+|   |
+|   |
+|   ├── leetcode-code-codebase/          # Daily DSA practice
+│   └── scenario-based/                  # Scenario-based & real-world logic problems|
+|          ├── BookShelf – Library Organizer/
+|          ├── BrowserBuddy – Tab History Manager/
+|          ├── CinemaTime – Movie Schedule Manager/
+|          ├── ExamProctor – Online Exam Review System/
+|          ├── ParcelTracker – Delivery Chain Management/
+|          ├── TrafficManager – Roundabout Vehicle Flow/
+|                 
+|
+├── collections-practice/
+│   ├── gcr-codebase/
+|   |      ├── generics/
+|   |      ├── collections/
+|   |      ├── streams/
+|   |      ├── exceptions/
+|   |
+|   ├── leetcode-code-codebase/          # Daily DSA practice
+│   └── scenario-based/                  # Scenario-based & real-world logic problems
+|
+|     
 ├── reviews/                     # for reviews done in the classroom
 └── README.md
+
 
 ```
 # <u>DAILY ACTIVITY LOG</u>
@@ -704,6 +738,8 @@ BridgeLabz-Training/
 
 ---
 
+## WEEK-6
+
 ### Day 27 (19-01-2026) – Address Book (4,5 Use Case) & Runtime Analysis
 **(`dsa-practice`)**
 
@@ -825,6 +861,8 @@ BridgeLabz-Training/
 
 ---
 
+## WEEK-7
+
 ### Day 32 (27-01-2026) – Exception Handling, Core Java Scenarios
 **(`collections-practice & core-java-practice`)**
 
@@ -847,6 +885,43 @@ BridgeLabz-Training/
 
 ---
 
+### Day 33 (28-01-2026) – String Manipulation, Collections & LeetCode
+**(`core-java-practice & collections-practice`)**
+
+🔹 Core Java – Flip Key Logic(String & ASCII Manipulation)
+- Converted input to lowercase
+- Removed characters with even ASCII values
+- Reversed the remaining characters
+- Converted characters at even indices (0-based) to uppercase
+
+🔹 Collections – Scenario-Based Programs
+
+1. Restaurant Table Reservation System
+- Designed table reservation system using:
+- Map<Integer, Table> for table tracking
+- List<Reservation> for reservations
+- Implemented core functionalities:reserveTable(),cancelReservation(),showAvailableTables()
+- Created and threw custom TableAlreadyReservedException
+
+2. File Backup Scheduler
+- Scheduled backup tasks using PriorityQueue<BackupTask>
+- Assigned higher priority to critical folders
+- Implemented Comparable for priority-based execution
+- Validated backup paths
+- Created and threw InvalidBackupPathException
+- Executed backup tasks in correct priority order
+
+🔹 LeetCode – Array & Collection Problems
+- Longest Consecutive Sequence - Leetcode 128
+- Majority Element - Leetcode 169
+
+**Code Links**
+- [FlipKeyLogic](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/core-java-practice/core-java-practice/scenario-based/FlipKeyLogicalProblem.java)
+- [RestaurantTableReservationSystem](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/RestaurantTableReservationSystem)
+- [FileBackupScheduler](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/FIleBackupScheduler)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/leet-code-codebase)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

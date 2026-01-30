@@ -953,6 +953,25 @@ BridgeLabz-Training/
 - [Regex](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/regex)
 
 ---
+### Day 35 (30-01-2026) – Regular Expressions
+**(`oops-practice & collections-practice`)**
+
+🔹Future Logistics - Scenario-based
+- OOP with abstraction & inheritance
+- Brick & Timber transport handling
+- Vehicle-based charge calculation
+- Transport ID validation & billing output
+
+🔹 LeetCode – Collection Problems
+- Maximum Number of Balls in a Box - Leetcode 1742
+- Find Disappeared Numbers - Leetcode 448
+
+*Code Links**
+- [Future Logistics](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/FutureLogistics)
+- [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/leet-code-codebase)
+
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

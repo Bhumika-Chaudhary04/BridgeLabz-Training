@@ -953,6 +953,7 @@ BridgeLabz-Training/
 - [Regex](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/regex)
 
 ---
+
 ### Day 35 (30-01-2026) – Regular Expressions
 **(`oops-practice & collections-practice`)**
 
@@ -970,6 +971,75 @@ BridgeLabz-Training/
 - [Future Logistics](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/FutureLogistics)
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/leet-code-codebase)
 
+
+---
+
+### Day 36 (02-02-2026) – Annotations & Reflection / CSV Handling
+**(`collections-practice & io-programming-practice`)**
+
+🔹Reflection in Java – Basic Level
+- Get Class Information
+- Access Private Field
+- Invoke Private Method
+- Dynamically Create Objects
+
+🔹Reflection in Java – Intermediate Level
+- Dynamic Method Invocation
+- Retrieve Annotations at Runtime
+- Access and Modify Static Fields
+
+🔹Reflection in Java – Advanced Level
+- Custom Object Mapper
+- Generate JSON Representation
+- Custom Logging Proxy
+- Dependency Injection using Reflection
+- Method Execution Timing
+
+🔹Annotations Practice
+- Use @Override Correctly
+- Use @Deprecated to Mark Old Methods
+- Suppress Unchecked Warnings
+- Create a Custom Annotation and Use It
+- Create and Use a Repeatable Annotation
+
+🔹Custom Annotations – Beginner Level
+- @ImportantMethod
+- @Todo
+
+🔹Custom Annotations – Intermediate Level
+- @LogExecutionTime
+- @MaxLength
+
+🔹Custom Annotations – Advanced Level
+- @RoleAllowed
+- @JsonField
+- @CacheResult
+
+🔹CSV Data Handling – Basic Problems
+- Read a CSV File and Print Data
+- Write Data to a CSV File
+- Read and Count Rows in a CSV File
+
+🔹CSV Data Handling – Intermediate Problems
+- Filter Records from CSV
+- Search for a Record in CSV
+- Modify a CSV File
+- Sort CSV Records by a Column
+
+🔹CSV Data Handling – Advanced Problems
+- Validate CSV Data Before Processing
+- Convert CSV Data into Java Objects
+- Merge Two CSV Files
+- Read Large CSV File Efficiently
+- Detect Duplicates in a CSV File
+- Generate a CSV Report from Database
+- Convert JSON to CSV and Vice Versa
+- Encrypt and Decrypt CSV Data
+
+*Code Links**
+- [Reflections](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/reflections)
+- [Annotaions](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/annotations)
+- [CSV](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csv)
 
 ---
 ## Purpose of This Repository

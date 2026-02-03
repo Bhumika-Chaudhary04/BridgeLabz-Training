@@ -967,7 +967,7 @@ BridgeLabz-Training/
 - Maximum Number of Balls in a Box - Leetcode 1742
 - Find Disappeared Numbers - Leetcode 448
 
-*Code Links**
+**Code Links**
 - [Future Logistics](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/FutureLogistics)
 - [leetcode](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/leet-code-codebase)
 
@@ -1036,12 +1036,31 @@ BridgeLabz-Training/
 - Convert JSON to CSV and Vice Versa
 - Encrypt and Decrypt CSV Data
 
-*Code Links**
+**Code Links**
 - [Reflections](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/reflections)
 - [Annotaions](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/annotations)
 - [CSV](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csv)
 
 ---
+
+### Day 37 (03-02-2026) – Scenario-based
+**(`dsa-practice & collections-practice`)**
+
+🔹 Scenario-Based – DSA Practice
+- Factory Robot Hazard Analyzer (Evaluates a factory robot’s hazard risk based on arm precision, worker density, and machinery state using custom exception handling and validation rules.)
+- AeroVigil – Flight Validation System (Validates flight details (flight number, name, passenger capacity, fuel level) using regex and custom exceptions, and calculates required fuel if all checks pass.)
+
+🔹 Scenario-Based – Collections Practice
+- StreamBuzz - Creator Engagement Analyzer (Tracks creators’ weekly likes, identifies top-performing posts based on thresholds, and calculates overall average engagement using collections.)
+
+**Code Links**
+- [FactoryRobotHazardAnalyzer](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/FactoryRobotHazardAnalyzer)
+- [AeroVigil](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/AeroVigil)
+- [StreamBuzz](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/StreamBuzz)
+
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

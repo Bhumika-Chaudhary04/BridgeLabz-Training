@@ -1058,6 +1058,46 @@ BridgeLabz-Training/
 - [AeroVigil](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/AeroVigil)
 - [StreamBuzz](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/StreamBuzz)
 
+---
+
+### Day 38 (04-02-2026) – Java 8 & IO Programming
+**(`java8-features-practice & io-programming-practice`)**
+
+🔹 JSON Handling – Practice Problems
+- Create a JSON object for a Student with fields: name, age, and subjects.
+- Convert a Java object (Car) into JSON format.
+- Read a JSON file and extract only specific fields (e.g., name, email).
+- Merge two JSON objects into one.
+- Validate JSON structure using Jackson.
+- Convert a list of Java objects into a JSON array.
+- Parse JSON and filter records where age > 25.
+
+🔹 JSON Handling Hands-on Practice
+- Read a JSON file and print all keys and values.
+- Convert a list of Java objects into a JSON array.
+- Filter JSON data to display users older than 25 years.
+- Validate an email field using JSON Schema.
+- Merge two JSON files into a single JSON object.
+- Convert JSON data into XML format.
+- Convert CSV data into JSON.
+- Generate a JSON report from database records.
+
+🔹IPL and Censor Analyzer
+- Develop a Java application that reads IPL match data from JSON and CSV files, applies censorship rules, and writes the sanitized data back to new files.
+
+🔹 Lambda Expressions
+- Smart Home Lighting Automation
+- Custom Sorting in E-Commerce
+- Notification Filtering System
+
+🔹 Method References
+- Hospital Patient ID Printing
+- Employee Name Uppercasing
+- Invoice Object Creation
+
+**Code Links**
+- [Json](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json)
+- [LambdaExpression](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/lambda_expression)
 
 ---
 

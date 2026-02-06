@@ -1137,6 +1137,54 @@ Used Collectors.summarizingInt().
 
 ---
 
+### Day 40 (06-02-2026) – Defining and Implementing Interfaces
+
+**(`java8-features-practice`)**
+
+🔹 Interfaces – Scenario-Based Practice Questions
+
+🔹Defining and Implementing Interfaces
+- Smart Device Control InterfaceDevices like Lights, AC, and TV implement common control methods.
+- Multi-Vehicle Rental System
+- Cars, Bikes, and Buses share rental-related operations.
+- Digital Payment Interface
+- UPI, Credit Card, and Wallet follow a unified payment contract.
+
+🔹Functional Interfaces
+- Temperature Alert System
+- Used Predicate functional interface for threshold validation.
+- String Length Checker
+- Function functional interface for character count evaluation.
+- Background Job Execution
+- Used Runnable functional interface for asynchronous execution- .
+
+🔹Static Methods in Interfaces
+- Password Strength Validator
+- Centralized password policy validation using static methods.
+- Unit Conversion Tool
+- Standard unit conversions implemented as static interface methods.
+- Date Format Utility
+- Common date formatting logic using static interface methods.
+
+🔹Default Methods in Interfaces
+Data Export Feature
+- Payment Gateway IntegrationAdded refund support using default methods without breaking existing implementations.
+- Extended export functionality with JSON using default methods.
+- Smart Vehicle Dashboard
+- Introduced optional battery display feature using default methods.
+
+🔹Marker Interfaces
+- Data Serialization for Backup
+- Marked classes eligible for backup processing.
+- Cloning Prototype Objects
+- Enabled object cloning using Cloneable marker interface.
+- Sensitive Data Tagging
+- Tagged sensitive data classes for encryption using custom marker interface.
+
+**Code Links**
+- [functionalInterface](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/functional_interface)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

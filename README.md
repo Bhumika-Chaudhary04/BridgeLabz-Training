@@ -1185,6 +1185,40 @@ Data Export Feature
 - [functionalInterface](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/functional_interface)
 
 ---
+
+### Day 41 (07-02-2026) – Collections & Stream API Practice
+
+**(`java8-features-practice & collections-practice`)**
+
+🔹 Collections – Scenario-Based Practice
+- OceanFleet Analytics – Vessel Performance Tracking
+- OceanFleet Analytics is a marine research organization that monitors the performance of cargo vessels operating on various routes. 
+- To improve operational efficiency, a vessel tracking system is implemented using Java Collections to store, retrieve, and analyze vessel performance data.
+- The system manages vessel details such as vessel ID, name, type, and average speed, allowing efficient lookups and identification of high-performing vessels.
+
+
+🔹 Stream API
+
+- Top 5 Trending Movies
+- Hospital Doctor Availability
+- Insurance Claim Analysis
+- Filtering Expiring Memberships
+- Transforming Names for Display
+
+🔹 forEach() Method – Practice Scenarios
+
+- Stock Price Logger
+- Event Attendee Welcome Message
+- IoT Sensor Readings
+- Email Notifications
+- Logging Transactions
+
+**Code Links**
+- [OceanFleet](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/OceanFleet)
+- [StreamAPI](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/stream_api)
+
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

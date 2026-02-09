@@ -1219,6 +1219,29 @@ Data Export Feature
 
 
 ---
+
+### Day 42 (09-02-2026) – SonarQube Implementation
+**(`collections-practice`)**
+
+🔹 Scenario
+- An organization manages employee leave requests and approvals using Java Collections.
+
+🔹 Requirements Implemented
+- Store employees using Map<EmployeeID, Employee>
+- Store leave requests using List<LeaveRequest>
+- Validate leave balance before approval
+- Throw InsufficientLeaveBalanceException
+- Approve / reject leave requests using methods
+
+🔹 SonarQube Integration
+- Maven-based project
+- SonarQube used for static code analysis
+- Identified and fixed code smells and maintainability issues
+
+**Code Links**
+- [SonarQube](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/sonar-demo)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

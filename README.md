@@ -1242,6 +1242,30 @@ Data Export Feature
 - [SonarQube](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/sonar-demo)
 
 ---
+
+### Day 43 (10-02-2026) – JUnit Scenario-Based Testing
+**(`collections-practice`)**
+
+🔹 Scenario
+- A banking system manages account transactions such as deposits and withdrawals, ensuring correct balance updates and proper exception handling.
+- Created a Bank Account class with balance initialization
+- Implemented Deposit method to add amount to balance
+- Validated negative deposit amounts with exception handling
+- Implemented Withdraw method to deduct amount from balance
+- Validated insufficient balance scenarios with exceptions
+
+🔹 JUnit Testing
+- Maven-based JUnit project structure
+- Created unit tests using JUnit framework
+- Tested deposit functionality with valid and negative amounts
+- Tested withdrawal logic for sufficient and insufficient balance
+- Verified balance updates after transactions
+- Asserted expected exception messages
+
+**Code Links**
+- [BankAccountJunit](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/BankAccountJunit)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

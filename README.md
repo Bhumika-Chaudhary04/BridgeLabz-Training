@@ -1266,6 +1266,27 @@ Data Export Feature
 - [BankAccountJunit](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/BankAccountJunit)
 
 ---
+
+### Day 44 (11-02-2026) – Smart Energy Consumption Monitor
+**(`collections-practice`)**
+
+🔹 Scenario
+- A smart home system tracks daily energy consumption readings.
+- The system stores and analyzes energy usage data efficiently.
+
+🔹 Requirements Implemented
+- Stored energy readings using Map<Date, List<Double>>
+- Recorded multiple energy readings per day
+- Calculated daily average energy consumption
+- Calculated monthly average energy consumption
+- Implemented InvalidEnergyReadingException for invalid (negative) readings
+- Used OOP principles for clean structure and data handling
+- Created methods for analysis and reporting
+
+**Code Links**
+- [SmartEnergyConsumptionMonitor](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/SmartEnergyConsumptionMonitor)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

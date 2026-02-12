@@ -1287,6 +1287,29 @@ Data Export Feature
 - [SmartEnergyConsumptionMonitor](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/SmartEnergyConsumptionMonitor)
 
 ---
+
+### Day 45 (12-02-2026) – Online Auction Bidding System
+**(`collections-practice`)**
+
+🔹 Scenario
+- An online auction platform allows users to place bids on items.
+- The system ensures that only valid and higher bids are accepted.
+
+🔹 Requirements Implemented
+- Stored bids using TreeMap<User, Double> to maintain sorted order
+- Automatically tracked and displayed the highest bid
+- Prevented lower bids using validation logic
+- Implemented InvalidBidException for invalid or lower bid attempts
+- Designed OOP-based structure using:
+- AuctionItem class
+- Bid class
+- User class
+- Created methods for bid placement and result display
+
+**Code Links**
+- [OnlineAuctionBiddingSystem](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/OnlineAuctionBiddingSystem)
+
+---
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

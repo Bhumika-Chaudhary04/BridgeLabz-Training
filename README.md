@@ -1310,6 +1310,25 @@ Data Export Feature
 - [OnlineAuctionBiddingSystem](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/OnlineAuctionBiddingSystem)
 
 ---
+
+### Day 46 — 13-02-2026
+**(`java8-features-practice`)**
+
+🔹  Online Course Enrollment Manager in scenario-based under java8-features-practice :
+- Developed system using Java 8 features
+- Managed student enrollments (name, course, category, date)
+- Filtered data by course name and category
+- Grouped enrollments by course name
+- Counted total enrollments per category
+- Sorted enrollments by date
+- Applied Streams, Lambda, Method References, and Collectors
+- OnlineCourseEnrollmentManager Solution
+
+**Code Links**
+- [OnlineCourseEnrollmentManager](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/scenario-based/OnlineCourseEnrollmentManager)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

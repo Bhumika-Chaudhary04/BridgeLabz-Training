@@ -1329,6 +1329,20 @@ Data Export Feature
 
 ---
 
+
+### Day 47 (14-02-2026) - Disaster Relief Management
+**(`solution-designing-practice`)**
+
+🔹Disaster Relief Resource Allocation System :
+- Used Map for relief centers and HashMap for inventory
+- Implemented FIFO request handling using Queue
+- Allocated resources based on availability
+- Added custom exception for insufficient stock
+- Structured using layered architecture
+- Demonstrated OOP and Java Collections usage
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

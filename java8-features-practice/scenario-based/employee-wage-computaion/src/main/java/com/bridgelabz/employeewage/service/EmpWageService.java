@@ -5,26 +5,30 @@ import java.util.Random;
 
 public class EmpWageService {
 	private static final int WAGE_PER_HOUR = 20;
-    private static final int FULL_DAY_HOURS = 8;
+    private static final int FULL_TIME_HOURS = 8;
+    private static final int PART_TIME_HOURS = 4;
 
     public Employee computeDailyWage() {
 
         Random random = new Random();
-        int attendance = random.nextInt(2);
-        Employee employee = new Employee(attendance);
+        int empCheck = random.nextInt(3);  // 0,1,2
 
-        if (attendance == 1) {
+        Employee employee = new Employee(empCheck);
 
-            employee.setWorkingHours(FULL_DAY_HOURS);
+        int workingHours = 0;
 
-            int wage = FULL_DAY_HOURS * WAGE_PER_HOUR;
-            employee.setDailyWage(wage);
-
+        if (empCheck == 1) {
+            workingHours = FULL_TIME_HOURS;
+        } else if (empCheck == 2) {
+            workingHours = PART_TIME_HOURS;
         } else {
-
-            employee.setWorkingHours(0);
-            employee.setDailyWage(0);
+            workingHours = 0;
         }
+
+        employee.setWorkingHours(workingHours);
+
+        int wage = workingHours * WAGE_PER_HOUR;
+        employee.setDailyWage(wage);
 
         return employee;
     }

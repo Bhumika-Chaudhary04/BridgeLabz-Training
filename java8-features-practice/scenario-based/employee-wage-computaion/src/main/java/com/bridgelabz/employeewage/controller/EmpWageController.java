@@ -14,7 +14,6 @@ public class EmpWageController {
 
 		builder.addCompany("TCS", 20, 20, 100);
 		builder.addCompany("Infosys", 25, 22, 110);
-		builder.addCompany("Wipro", 30, 18, 90);
 
 		builder.computeEmployeeWage();
 	}

@@ -1,5 +1,5 @@
 package com.bridgelabz.employeewage.model;
-
+import java.util.*;
 public class CompanyEmpWage {
 
 	private String companyName;
@@ -7,6 +7,7 @@ public class CompanyEmpWage {
 	private int maxWorkingDays;
 	private int maxWorkingHours;
 	private int totalWage;
+	private List<Integer> dailyWages;
 
 	public CompanyEmpWage(String companyName, int wagePerHour, int maxWorkingDays, int maxWorkingHours) {
 
@@ -14,6 +15,7 @@ public class CompanyEmpWage {
 		this.wagePerHour = wagePerHour;
 		this.maxWorkingDays = maxWorkingDays;
 		this.maxWorkingHours = maxWorkingHours;
+		this.dailyWages = new ArrayList<>();
 	}
 
 	public String getCompanyName() {
@@ -31,7 +33,13 @@ public class CompanyEmpWage {
 	public int getMaxWorkingHours() {
 		return maxWorkingHours;
 	}
+	public List<Integer> getDailyWages() {
+        return dailyWages;
+    }
 
+    public void addDailyWage(int wage) {
+        dailyWages.add(wage);
+    }
 	public int getTotalWage() {
 		return totalWage;
 	}

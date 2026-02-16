@@ -1,9 +1,10 @@
 package com.bridgelabz.employeewage.service;
 
 import com.bridgelabz.employeewage.model.CompanyEmpWage;
+import com.bridgelabz.employeewage.repository.CompanyEmpWageRepository;
+import com.bridgelabz.employeewage.repository.ICompanyEmpWageRepository;
+
 import java.util.Random;
-import java.util.ArrayList;
-import java.util.List;
 
 public class EmpWageBuilder implements IEmpWageBuilder {
 
@@ -13,10 +14,10 @@ public class EmpWageBuilder implements IEmpWageBuilder {
 	private static final int FULL_TIME_HOURS = 8;
 	private static final int PART_TIME_HOURS = 4;
 
-	private List<CompanyEmpWage> companyList;
+	private ICompanyEmpWageRepository repository;
 
 	public EmpWageBuilder() {
-		companyList = new ArrayList<>();
+		repository = new CompanyEmpWageRepository();
 	}
 
 	@Override
@@ -24,13 +25,13 @@ public class EmpWageBuilder implements IEmpWageBuilder {
 
 		CompanyEmpWage company = new CompanyEmpWage(companyName, wagePerHour, maxWorkingDays, maxWorkingHours);
 
-		companyList.add(company);
+		repository.save(company);
 	}
 
 	@Override
 	public void computeEmployeeWage() {
 
-		for (CompanyEmpWage company : companyList) {
+		for (CompanyEmpWage company : repository.findAll()) {
 
 			int totalHours = 0;
 			int totalDays = 0;
@@ -59,10 +60,17 @@ public class EmpWageBuilder implements IEmpWageBuilder {
 				}
 
 				totalHours += workingHours;
-				totalWage += workingHours * company.getWagePerHour();
+
+				int dailyWage = workingHours * company.getWagePerHour();
+
+				company.addDailyWage(dailyWage);
+
+				totalWage += dailyWage;
 			}
 
 			company.setTotalWage(totalWage);
+
+			System.out.println("Daily Wages: " + company.getDailyWages());
 
 			System.out.println("Total Wage for " + company.getCompanyName() + " = " + company.getTotalWage());
 

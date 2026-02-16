@@ -7,7 +7,7 @@ public class EmpWageController {
 	private IEmpWageBuilder builder;
 
 	public EmpWageController() {
-		builder = new EmpWageBuilder(5);
+		builder = new EmpWageBuilder();
 	}
 
 	public void computeEmployeeWage() {

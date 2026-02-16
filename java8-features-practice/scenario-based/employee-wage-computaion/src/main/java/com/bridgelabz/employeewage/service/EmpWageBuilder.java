@@ -2,6 +2,8 @@ package com.bridgelabz.employeewage.service;
 
 import com.bridgelabz.employeewage.model.CompanyEmpWage;
 import java.util.Random;
+import java.util.ArrayList;
+import java.util.List;
 
 public class EmpWageBuilder implements IEmpWageBuilder {
 
@@ -11,28 +13,24 @@ public class EmpWageBuilder implements IEmpWageBuilder {
 	private static final int FULL_TIME_HOURS = 8;
 	private static final int PART_TIME_HOURS = 4;
 
-	private CompanyEmpWage[] companyArray;
-	private int numberOfCompanies;
+	private List<CompanyEmpWage> companyList;
 
-	public EmpWageBuilder(int maxCompanies) {
-		companyArray = new CompanyEmpWage[maxCompanies];
-		numberOfCompanies = 0;
+	public EmpWageBuilder() {
+		companyList = new ArrayList<>();
 	}
 
-	// Add company to array
+	@Override
 	public void addCompany(String companyName, int wagePerHour, int maxWorkingDays, int maxWorkingHours) {
 
-		companyArray[numberOfCompanies] = new CompanyEmpWage(companyName, wagePerHour, maxWorkingDays, maxWorkingHours);
+		CompanyEmpWage company = new CompanyEmpWage(companyName, wagePerHour, maxWorkingDays, maxWorkingHours);
 
-		numberOfCompanies++;
+		companyList.add(company);
 	}
 
 	@Override
 	public void computeEmployeeWage() {
 
-		for (int i = 0; i < numberOfCompanies; i++) {
-
-			CompanyEmpWage company = companyArray[i];
+		for (CompanyEmpWage company : companyList) {
 
 			int totalHours = 0;
 			int totalDays = 0;

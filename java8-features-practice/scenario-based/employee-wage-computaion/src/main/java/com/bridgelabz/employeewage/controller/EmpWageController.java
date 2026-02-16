@@ -7,16 +7,16 @@ public class EmpWageController {
 	private EmpWageBuilder builder;
 
 	public EmpWageController() {
-		builder = new EmpWageBuilder();
+		builder = new EmpWageBuilder(5);
 	}
 
 	public void computeEmployeeWage() {
 
-		CompanyEmpWage tcs = new CompanyEmpWage("TCS", 20, 20, 100);
+		builder.addCompany("TCS", 20, 20, 100);
+		builder.addCompany("Infosys", 25, 22, 110);
+		builder.addCompany("Wipro", 30, 18, 90);
 
-		CompanyEmpWage infosys = new CompanyEmpWage("Infosys", 25, 22, 110);
-		builder.computeEmployeeWage(tcs);
-		builder.computeEmployeeWage(infosys);
+		builder.computeEmployeeWage();
 	}
 
 }

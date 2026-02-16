@@ -11,46 +11,72 @@ public class EmpWageBuilder {
 	private static final int FULL_TIME_HOURS = 8;
 	private static final int PART_TIME_HOURS = 4;
 
-	public void computeEmployeeWage(CompanyEmpWage company) {
+	private CompanyEmpWage[] companyArray;
+	private int numberOfCompanies;
 
-		int totalHours = 0;
-		int totalDays = 0;
-		int totalWage = 0;
+	public EmpWageBuilder(int maxCompanies) {
+		companyArray = new CompanyEmpWage[maxCompanies];
+		numberOfCompanies = 0;
+	}
 
-		Random random = new Random();
+	// Add company to array
+	public void addCompany(String companyName, int wagePerHour, int maxWorkingDays, int maxWorkingHours) {
 
-		System.out.println("Computing wage for " + company.getCompanyName());
+		companyArray[numberOfCompanies] = new CompanyEmpWage(companyName, wagePerHour, maxWorkingDays, maxWorkingHours);
 
-		while (totalHours < company.getMaxWorkingHours() && totalDays < company.getMaxWorkingDays()) {
+		numberOfCompanies++;
+	}
 
-			totalDays++;
+	// Compute wage for all companies
+	public void computeEmployeeWage() {
 
-			int empCheck = random.nextInt(3);
-			int workingHours = 0;
+        for (int i = 0; i < numberOfCompanies; i++) {
 
-			switch (empCheck) {
-			case FULL_TIME:
-				workingHours = FULL_TIME_HOURS;
-				break;
-			case PART_TIME:
-				workingHours = PART_TIME_HOURS;
-				break;
-			default:
-				workingHours = 0;
-			}
+            CompanyEmpWage company = companyArray[i];
 
-			totalHours += workingHours;
+            int totalHours = 0;
+            int totalDays = 0;
+            int totalWage = 0;
 
-			int dailyWage = workingHours * company.getWagePerHour();
-			totalWage += dailyWage;
+            Random random = new Random();
 
-			System.out.println("Day " + totalDays + " | Hours: " + workingHours + " | Daily Wage: " + dailyWage);
-		}
+            System.out.println("Computing wage for "
+                    + company.getCompanyName());
 
-		company.setTotalWage(totalWage);
+            while (totalHours < company.getMaxWorkingHours()
+                    && totalDays < company.getMaxWorkingDays()) {
 
-		System.out.println("Total Wage for " + company.getCompanyName() + " = " + company.getTotalWage());
+                totalDays++;
 
-		System.out.println("------------------------------------");
+                int empCheck = random.nextInt(3);
+                int workingHours = 0;
+
+                switch (empCheck) {
+                    case FULL_TIME:
+                        workingHours = FULL_TIME_HOURS;
+                        break;
+                    case PART_TIME:
+                        workingHours = PART_TIME_HOURS;
+                        break;
+                    default:
+                        workingHours = 0;
+                }
+
+                totalHours += workingHours;
+
+                int dailyWage =
+                        workingHours * company.getWagePerHour();
+
+                totalWage += dailyWage;
+            }
+
+            company.setTotalWage(totalWage);
+
+            System.out.println("Total Wage for "
+                    + company.getCompanyName()
+                    + " = " + company.getTotalWage());
+
+            System.out.println("--------------------------------");
+        }
 	}
 }

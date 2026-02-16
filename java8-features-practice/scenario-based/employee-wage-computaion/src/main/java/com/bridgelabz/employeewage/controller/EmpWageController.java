@@ -15,7 +15,7 @@ public class EmpWageController {
 		Employee employee = service.computeMonthlyWage();
 
 		System.out.println("----------------------------------");
-		System.out.println("Total Wage for 20 Days: " + employee.getTotalWage());
+		System.out.println("Total Wage : " + employee.getTotalWage());
 
 	}
 }

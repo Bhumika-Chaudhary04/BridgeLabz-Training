@@ -7,19 +7,21 @@ public class EmpWageService {
 	private static final int WAGE_PER_HOUR = 20;
 	private static final int FULL_TIME_HOURS = 8;
 	private static final int PART_TIME_HOURS = 4;
-	private static final int WORKING_DAYS = 20;
+	private static final int MAX_WORKING_DAYS = 20;
+	private static final int MAX_WORKING_HOURS = 100;
 
 	public Employee computeMonthlyWage() {
 
 		Random random = new Random();
 		int totalWage = 0;
+		int totalHours = 0;
+		int totalDays = 0;
 
-		for (int day = 1; day <= WORKING_DAYS; day++) {
+		while (totalHours < MAX_WORKING_HOURS && totalDays < MAX_WORKING_DAYS) {
+
+			totalDays++;
 
 			int empCheck = random.nextInt(3);
-
-			Employee employee = new Employee(empCheck);
-
 			int workingHours;
 
 			switch (empCheck) {
@@ -36,19 +38,21 @@ public class EmpWageService {
 				workingHours = 0;
 			}
 
-			employee.setWorkingHours(workingHours);
+			totalHours += workingHours;
 
 			int dailyWage = workingHours * WAGE_PER_HOUR;
-			employee.setDailyWage(dailyWage);
-
 			totalWage += dailyWage;
 
-			System.out.println("Day " + day + " | Daily Wage: " + dailyWage);
+			System.out.println("Day " + totalDays + " | Hours: " + workingHours + " | Daily Wage: " + dailyWage);
 		}
 
-		Employee monthlyEmployee = new Employee();
-		monthlyEmployee.setTotalWage(totalWage);
+		Employee employee = new Employee();
+		employee.setTotalWage(totalWage);
 
-		return monthlyEmployee;
+		System.out.println("----------------------------------");
+		System.out.println("Total Working Days: " + totalDays);
+		System.out.println("Total Working Hours: " + totalHours);
+
+		return employee;
 	}
 }

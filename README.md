@@ -1341,7 +1341,40 @@ Data Export Feature
 - Structured using layered architecture
 - Demonstrated OOP and Java Collections usage
 
+**Code Links**
+-[DisasterReliefManagement](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/solution-designing-practice/solution-designing-practice/scenario-based/DisasterReliefResorceAllocationSystem)
+
 ---
+
+### Day 48 (16-02-2026) - Employee Wage Computation
+**(`java8-features-practice`)**
+
+🔹Created Maven project with 4-layer architecture (controller, model, repository, service)
+
+   Use Cases Implemented:
+
+- UC-1: Attendance using random
+- UC-2: Daily employee wage calculation
+- UC-3: Part-time employee wage
+- UC-4: Switch-case based solution
+- UC-5: Monthly wage computation
+- UC-6: Wage till condition reached
+- UC-7: Class methods and variables
+- UC-8: Multiple companies computation
+- UC-9: Store total wage per company
+- UC-10: Manage multiple companies
+- UC-11: Interface-based implementation
+- UC-12: Company management using ArrayList
+- UC-13: Store daily + total wage
+- UC-14: Retrieve total wage by company
+
+**Code Links**
+-[EmployeeWageComputation](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/scenario-based/employee-wage-computaion)
+
+
+---
+
+
 
 ## Purpose of This Repository
 - Maintain a structured learning record

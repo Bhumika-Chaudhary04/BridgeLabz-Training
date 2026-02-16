@@ -4,20 +4,32 @@ import com.bridgelabz.employeewage.model.Employee;
 import java.util.Random;
 
 public class EmpWageService {
-	private static final int WAGE_PER_HOUR = 20;
+	// Class Variables (NOT static final now)
+	private int wagePerHour;
+	private int maxWorkingDays;
+	private int maxWorkingHours;
+
 	private static final int FULL_TIME_HOURS = 8;
 	private static final int PART_TIME_HOURS = 4;
-	private static final int MAX_WORKING_DAYS = 20;
-	private static final int MAX_WORKING_HOURS = 100;
 
-	public Employee computeMonthlyWage() {
+	// Constructor
+	public EmpWageService(int wagePerHour, int maxWorkingDays, int maxWorkingHours) {
+
+		this.wagePerHour = wagePerHour;
+		this.maxWorkingDays = maxWorkingDays;
+		this.maxWorkingHours = maxWorkingHours;
+	}
+
+	// Class Method
+	public Employee computeEmployeeWage() {
 
 		Random random = new Random();
+
 		int totalWage = 0;
 		int totalHours = 0;
 		int totalDays = 0;
 
-		while (totalHours < MAX_WORKING_HOURS && totalDays < MAX_WORKING_DAYS) {
+		while (totalHours < maxWorkingHours && totalDays < maxWorkingDays) {
 
 			totalDays++;
 
@@ -40,7 +52,7 @@ public class EmpWageService {
 
 			totalHours += workingHours;
 
-			int dailyWage = workingHours * WAGE_PER_HOUR;
+			int dailyWage = workingHours * wagePerHour;
 			totalWage += dailyWage;
 
 			System.out.println("Day " + totalDays + " | Hours: " + workingHours + " | Daily Wage: " + dailyWage);

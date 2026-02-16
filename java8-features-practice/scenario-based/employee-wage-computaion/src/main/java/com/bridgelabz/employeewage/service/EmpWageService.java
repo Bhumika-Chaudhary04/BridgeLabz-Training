@@ -4,67 +4,62 @@ import com.bridgelabz.employeewage.model.Employee;
 import java.util.Random;
 
 public class EmpWageService {
-	// Class Variables (NOT static final now)
-	private int wagePerHour;
-	private int maxWorkingDays;
-	private int maxWorkingHours;
-
 	private static final int FULL_TIME_HOURS = 8;
-	private static final int PART_TIME_HOURS = 4;
+    private static final int PART_TIME_HOURS = 4;
 
-	// Constructor
-	public EmpWageService(int wagePerHour, int maxWorkingDays, int maxWorkingHours) {
+    public Employee computeEmployeeWage(
+            String companyName,
+            int wagePerHour,
+            int maxWorkingDays,
+            int maxWorkingHours) {
 
-		this.wagePerHour = wagePerHour;
-		this.maxWorkingDays = maxWorkingDays;
-		this.maxWorkingHours = maxWorkingHours;
-	}
+        Random random = new Random();
 
-	// Class Method
-	public Employee computeEmployeeWage() {
+        int totalWage = 0;
+        int totalHours = 0;
+        int totalDays = 0;
 
-		Random random = new Random();
+        System.out.println("---- Computing Wage for " + companyName + " ----");
 
-		int totalWage = 0;
-		int totalHours = 0;
-		int totalDays = 0;
+        while (totalHours < maxWorkingHours
+                && totalDays < maxWorkingDays) {
 
-		while (totalHours < maxWorkingHours && totalDays < maxWorkingDays) {
+            totalDays++;
 
-			totalDays++;
+            int empCheck = random.nextInt(3);
+            int workingHours;
 
-			int empCheck = random.nextInt(3);
-			int workingHours;
+            switch (empCheck) {
 
-			switch (empCheck) {
+                case 1:
+                    workingHours = FULL_TIME_HOURS;
+                    break;
 
-			case 1:
-				workingHours = FULL_TIME_HOURS;
-				break;
+                case 2:
+                    workingHours = PART_TIME_HOURS;
+                    break;
 
-			case 2:
-				workingHours = PART_TIME_HOURS;
-				break;
+                default:
+                    workingHours = 0;
+            }
 
-			default:
-				workingHours = 0;
-			}
+            totalHours += workingHours;
 
-			totalHours += workingHours;
+            int dailyWage = workingHours * wagePerHour;
+            totalWage += dailyWage;
 
-			int dailyWage = workingHours * wagePerHour;
-			totalWage += dailyWage;
+            System.out.println("Day " + totalDays +
+                    " | Hours: " + workingHours +
+                    " | Daily Wage: " + dailyWage);
+        }
 
-			System.out.println("Day " + totalDays + " | Hours: " + workingHours + " | Daily Wage: " + dailyWage);
-		}
+        Employee employee = new Employee();
+        employee.setTotalWage(totalWage);
 
-		Employee employee = new Employee();
-		employee.setTotalWage(totalWage);
+        System.out.println("Total Wage for " + companyName + ": "
+                + totalWage);
+        System.out.println("----------------------------------");
 
-		System.out.println("----------------------------------");
-		System.out.println("Total Working Days: " + totalDays);
-		System.out.println("Total Working Hours: " + totalHours);
-
-		return employee;
-	}
+        return employee;
+    }
 }

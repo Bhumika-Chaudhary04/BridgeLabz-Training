@@ -7,15 +7,19 @@ public class EmpWageController {
 	private EmpWageService service;
 
 	public EmpWageController() {
-		service = new EmpWageService(20,20,100);
-	}
+        service = new EmpWageService();
+    }
 
-	public void computeEmployeeWage() {
+    public void computeEmployeeWage() {
 
-		Employee employee = service.computeEmployeeWage();
+        Employee tcs = service.computeEmployeeWage(
+                "TCS", 20, 20, 100);
 
-		System.out.println("----------------------------------");
-		System.out.println("Total Wage : " + employee.getTotalWage());
+        Employee infosys = service.computeEmployeeWage(
+                "Infosys", 25, 22, 110);
 
-	}
+        Employee wipro = service.computeEmployeeWage(
+                "Wipro", 30, 18, 90);
+    }
+
 }

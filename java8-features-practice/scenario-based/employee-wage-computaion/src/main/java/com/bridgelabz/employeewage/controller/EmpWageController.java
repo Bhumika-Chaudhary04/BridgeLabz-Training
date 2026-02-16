@@ -10,15 +10,20 @@ public class EmpWageController {
     public EmpWageController() {
         service = new EmpWageService();
     }
+    public void computeDailyWage() {
 
-    public void checkAttendance() {
-
-        Employee employee = service.checkAttendance();
+        Employee employee = service.computeDailyWage();
 
         if (employee.getAttendance() == 1) {
+
             System.out.println("Employee is Present");
+            System.out.println("Working Hours: " + employee.getWorkingHours());
+            System.out.println("Daily Wage: " + employee.getDailyWage());
+
         } else {
+
             System.out.println("Employee is Absent");
+            System.out.println("Daily Wage: 0");
         }
     }
 }

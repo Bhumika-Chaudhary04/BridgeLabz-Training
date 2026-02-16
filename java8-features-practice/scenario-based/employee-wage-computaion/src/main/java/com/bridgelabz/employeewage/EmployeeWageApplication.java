@@ -4,6 +4,8 @@ public class EmployeeWageApplication {
 	public static void main(String[] args) {
 		System.out.println("----------Welcome to Employee Wage Computation--------");
 		EmpWageController controller = new EmpWageController();
-        controller.checkAttendance();
+//        controller.checkAttendance();
+		//UC2 : Compute daily wage
+        controller.computeDailyWage();
 	}
 }

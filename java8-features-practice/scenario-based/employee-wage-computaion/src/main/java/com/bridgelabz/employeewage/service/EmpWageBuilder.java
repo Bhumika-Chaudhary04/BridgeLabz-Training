@@ -15,7 +15,6 @@ public class EmpWageBuilder implements IEmpWageBuilder {
 	private static final int PART_TIME_HOURS = 4;
 
 	private ICompanyEmpWageRepository repository;
-
 	public EmpWageBuilder() {
 		repository = new CompanyEmpWageRepository();
 	}

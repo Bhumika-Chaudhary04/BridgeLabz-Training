@@ -16,6 +16,9 @@ public class EmpWageController {
 		builder.addCompany("Infosys", 25, 22, 110);
 
 		builder.computeEmployeeWage();
+		int tcsWage = builder.getTotalWage("TCS");
+		System.out.println("Queried Total Wage for TCS = " + tcsWage);
+
 	}
 
 }

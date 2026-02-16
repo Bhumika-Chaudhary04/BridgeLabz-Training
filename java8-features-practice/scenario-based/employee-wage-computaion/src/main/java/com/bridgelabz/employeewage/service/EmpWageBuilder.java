@@ -70,11 +70,18 @@ public class EmpWageBuilder implements IEmpWageBuilder {
 
 			company.setTotalWage(totalWage);
 
-			System.out.println("Daily Wages: " + company.getDailyWages());
-
-			System.out.println("Total Wage for " + company.getCompanyName() + " = " + company.getTotalWage());
-
-			System.out.println("--------------------------------");
 		}
+	}
+
+	@Override
+	public int getTotalWage(String companyName) {
+
+		CompanyEmpWage company = repository.findByCompanyName(companyName);
+
+		if (company != null) {
+			return company.getTotalWage();
+		}
+
+		return 0;
 	}
 }

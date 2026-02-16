@@ -17,14 +17,19 @@ public class EmpWageService {
 
         int workingHours = 0;
 
-        if (empCheck == 1) {
-            workingHours = FULL_TIME_HOURS;
-        } else if (empCheck == 2) {
-            workingHours = PART_TIME_HOURS;
-        } else {
-            workingHours = 0;
-        }
+        switch (empCheck) {
 
+        case 1:
+            workingHours = FULL_TIME_HOURS;
+            break;
+
+        case 2:
+            workingHours = PART_TIME_HOURS;
+            break;
+
+        default:
+            workingHours = 0;
+    }
         employee.setWorkingHours(workingHours);
 
         int wage = workingHours * WAGE_PER_HOUR;

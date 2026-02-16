@@ -1,10 +1,10 @@
 package com.bridgelabz.employeewage.controller;
 
-import com.bridgelabz.employeewage.model.CompanyEmpWage;
+import com.bridgelabz.employeewage.service.IEmpWageBuilder;
 import com.bridgelabz.employeewage.service.EmpWageBuilder;
 
 public class EmpWageController {
-	private EmpWageBuilder builder;
+	private IEmpWageBuilder builder;
 
 	public EmpWageController() {
 		builder = new EmpWageBuilder(5);

@@ -4,31 +4,18 @@ import com.bridgelabz.employeewage.model.Employee;
 import com.bridgelabz.employeewage.service.EmpWageService;
 
 public class EmpWageController {
+	private EmpWageService service;
 
-    private EmpWageService service;
+	public EmpWageController() {
+		service = new EmpWageService();
+	}
 
-    public EmpWageController() {
-        service = new EmpWageService();
-    }
-    public void computeDailyWage() {
+	public void computeMonthlyWage() {
 
-        Employee employee = service.computeDailyWage();
+		Employee employee = service.computeMonthlyWage();
 
-        switch (employee.getAttendance()) {
+		System.out.println("----------------------------------");
+		System.out.println("Total Wage for 20 Days: " + employee.getTotalWage());
 
-        case 1:
-            System.out.println("Employee is Full Time");
-            break;
-
-        case 2:
-            System.out.println("Employee is Part Time");
-            break;
-
-        default:
-            System.out.println("Employee is Absent");
-    }
-
-        System.out.println("Working Hours: " + employee.getWorkingHours());
-        System.out.println("Daily Wage: " + employee.getDailyWage());
-    }
+	}
 }

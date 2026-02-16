@@ -5,11 +5,13 @@ public class Employee {
 	private int attendance;
 	private int workingHours;
     private int dailyWage;
+    private int totalWage;
 
 	public Employee(int attendance) {
 		this.attendance = attendance;
 	}
-
+	public Employee() {
+    }
 	public int getAttendance() {
 		return attendance;
 	}
@@ -27,5 +29,12 @@ public class Employee {
 
     public void setDailyWage(int dailyWage) {
         this.dailyWage = dailyWage;
+    }
+    public int getTotalWage() {
+        return totalWage;
+    }
+
+    public void setTotalWage(int totalWage) {
+    	this.totalWage = totalWage;
     }
 }

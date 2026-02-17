@@ -103,4 +103,49 @@ public class AddressBookService {
 			persons.forEach(ContactPerson::displayContact);
 		});
 	}
+	// -------- UC10 : Count Persons by City --------
+	public void countPersonsByCity() {
+	    Map<String, Integer> cityCountMap = new HashMap<>();
+
+	    for (AddressBook book : addressBookMap.values()) {
+	        for (ContactPerson person : book.getContactList()) {
+	            cityCountMap.put(
+	                    person.getCity(),
+	                    cityCountMap.getOrDefault(person.getCity(), 0) + 1
+	            );
+	        }
+	    }
+
+	    if (cityCountMap.isEmpty()) {
+	        System.out.println("No persons available.");
+	        return;
+	    }
+
+	    System.out.println("\nPersons count by City:");
+	    cityCountMap.forEach((city, count) ->
+	            System.out.println(city + " : " + count));
+	}
+
+	// -------- UC10 : Count Persons by State --------
+	public void countPersonsByState() {
+	    Map<String, Integer> stateCountMap = new HashMap<>();
+
+	    for (AddressBook book : addressBookMap.values()) {
+	        for (ContactPerson person : book.getContactList()) {
+	            stateCountMap.put(
+	                    person.getState(),
+	                    stateCountMap.getOrDefault(person.getState(), 0) + 1
+	            );
+	        }
+	    }
+
+	    if (stateCountMap.isEmpty()) {
+	        System.out.println("No persons available.");
+	        return;
+	    }
+
+	    System.out.println("\nPersons count by State:");
+	    stateCountMap.forEach((state, count) ->
+	            System.out.println(state + " : " + count));
+	}
 }

@@ -22,6 +22,8 @@ public class AddressBookMain {
 			System.out.println("8. Search Person by State");
 			System.out.println("9. View Persons by City");
 			System.out.println("10. View Persons by State");
+			System.out.println("11. Count Persons by City");
+			System.out.println("12. Count Persons by State");
 			System.out.println("0. Exit");
 
 			System.out.print("Enter choice: ");
@@ -46,6 +48,13 @@ public class AddressBookMain {
 			case 10:
 				service.viewPersonsByState();
 				break;
+			case 11:
+			    service.countPersonsByCity();
+			    break;
+
+			case 12:
+			    service.countPersonsByState();
+			    break;
 
 			case 0:
 				System.out.println("Exiting...");

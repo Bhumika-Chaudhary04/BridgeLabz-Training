@@ -1,16 +1,19 @@
 package AddressBook;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.ArrayList;
+import java.util.*;
 
 public class AddressBookService {
 
 	private Map<String, AddressBook> addressBookMap;
 
+	// UC9 Dictionaries
+	private Map<String, List<ContactPerson>> cityPersonMap;
+	private Map<String, List<ContactPerson>> statePersonMap;
+
 	public AddressBookService() {
 		addressBookMap = new HashMap<>();
+		cityPersonMap = new HashMap<>();
+		statePersonMap = new HashMap<>();
 	}
 
 	public void addAddressBook(String name) {
@@ -32,15 +35,12 @@ public class AddressBookService {
 			return;
 		}
 		System.out.println("Available Address Books:");
-		for (String name : addressBookMap.keySet()) {
-			System.out.println("- " + name);
-		}
+		addressBookMap.keySet().forEach(name -> System.out.println("- " + name));
 	}
 
-	//UC8: Search Person by City across ALL Address Books
+	// -------- UC8 METHODS (already present) --------
 	public List<ContactPerson> searchByCity(String city) {
 		List<ContactPerson> result = new ArrayList<>();
-
 		for (AddressBook book : addressBookMap.values()) {
 			for (ContactPerson person : book.getContactList()) {
 				if (person.getCity().equalsIgnoreCase(city)) {
@@ -51,10 +51,8 @@ public class AddressBookService {
 		return result;
 	}
 
-	//UC8: Search Person by State across ALL Address Books
 	public List<ContactPerson> searchByState(String state) {
 		List<ContactPerson> result = new ArrayList<>();
-
 		for (AddressBook book : addressBookMap.values()) {
 			for (ContactPerson person : book.getContactList()) {
 				if (person.getState().equalsIgnoreCase(state)) {
@@ -63,5 +61,46 @@ public class AddressBookService {
 			}
 		}
 		return result;
+	}
+
+	// -------- UC9 METHODS --------
+	public void viewPersonsByCity() {
+		cityPersonMap.clear();
+
+		for (AddressBook book : addressBookMap.values()) {
+			for (ContactPerson person : book.getContactList()) {
+				cityPersonMap.computeIfAbsent(person.getCity(), k -> new ArrayList<>()).add(person);
+			}
+		}
+
+		if (cityPersonMap.isEmpty()) {
+			System.out.println("No persons available.");
+			return;
+		}
+
+		cityPersonMap.forEach((city, persons) -> {
+			System.out.println("\nCity: " + city);
+			persons.forEach(ContactPerson::displayContact);
+		});
+	}
+
+	public void viewPersonsByState() {
+		statePersonMap.clear();
+
+		for (AddressBook book : addressBookMap.values()) {
+			for (ContactPerson person : book.getContactList()) {
+				statePersonMap.computeIfAbsent(person.getState(), k -> new ArrayList<>()).add(person);
+			}
+		}
+
+		if (statePersonMap.isEmpty()) {
+			System.out.println("No persons available.");
+			return;
+		}
+
+		statePersonMap.forEach((state, persons) -> {
+			System.out.println("\nState: " + state);
+			persons.forEach(ContactPerson::displayContact);
+		});
 	}
 }

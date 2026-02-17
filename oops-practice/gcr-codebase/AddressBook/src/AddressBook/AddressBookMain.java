@@ -1,6 +1,5 @@
 package AddressBook;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class AddressBookMain {
@@ -21,6 +20,8 @@ public class AddressBookMain {
 			System.out.println("6. Display Contacts");
 			System.out.println("7. Search Person by City");
 			System.out.println("8. Search Person by State");
+			System.out.println("9. View Persons by City");
+			System.out.println("10. View Persons by State");
 			System.out.println("0. Exit");
 
 			System.out.print("Enter choice: ");
@@ -38,31 +39,13 @@ public class AddressBookMain {
 				service.displayAddressBooks();
 				break;
 
-			case 7:
-				System.out.print("Enter City: ");
-			    String city = sc.nextLine();
+			case 9:
+				service.viewPersonsByCity();
+				break;
 
-			    List<ContactPerson> cityResult = service.searchByCity(city);
-
-			    if (cityResult.isEmpty()) {
-			        System.out.println("No persons found in city: " + city);
-			    } else {
-			        cityResult.forEach(ContactPerson::displayContact);
-			    }
-			    break;
-
-			case 8:
-				System.out.print("Enter State: ");
-			    String state = sc.nextLine();
-
-			    List<ContactPerson> stateResult = service.searchByState(state);
-
-			    if (stateResult.isEmpty()) {
-			        System.out.println("No persons found in state: " + state);
-			    } else {
-			        stateResult.forEach(ContactPerson::displayContact);
-			    }
-			    break;
+			case 10:
+				service.viewPersonsByState();
+				break;
 
 			case 0:
 				System.out.println("Exiting...");

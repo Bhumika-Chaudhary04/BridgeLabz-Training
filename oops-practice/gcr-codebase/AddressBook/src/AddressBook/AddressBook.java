@@ -1,6 +1,7 @@
 package AddressBook;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class AddressBook {
 
@@ -51,21 +52,56 @@ public class AddressBook {
 			person.displayContact();
 		}
 	}
+
 	public ArrayList<ContactPerson> getContactList() {
-	    return contactList;
+		return contactList;
 	}
+
 	public void sortContactsByName() {
+		if (contactList.isEmpty()) {
+			System.out.println("No contacts to sort.");
+			return;
+		}
+
+		contactList.sort(Comparator.comparing(ContactPerson::getFirstName, String.CASE_INSENSITIVE_ORDER)
+				.thenComparing(ContactPerson::getLastName, String.CASE_INSENSITIVE_ORDER));
+
+		System.out.println("\nContacts sorted alphabetically by name:");
+		contactList.forEach(System.out::println); // uses toString()
+	}
+
+	public void sortByCity() {
+		if (contactList.isEmpty()) {
+			System.out.println("No contacts to sort.");
+			return;
+		}
+
+		contactList.sort(Comparator.comparing(ContactPerson::getCity, String.CASE_INSENSITIVE_ORDER));
+
+		System.out.println("\nContacts sorted by City:");
+		contactList.forEach(System.out::println);
+	}
+
+	public void sortByState() {
+		if (contactList.isEmpty()) {
+			System.out.println("No contacts to sort.");
+			return;
+		}
+
+		contactList.sort(Comparator.comparing(ContactPerson::getState, String.CASE_INSENSITIVE_ORDER));
+
+		System.out.println("\nContacts sorted by State:");
+		contactList.forEach(System.out::println);
+	}
+	public void sortByZip() {
 	    if (contactList.isEmpty()) {
 	        System.out.println("No contacts to sort.");
 	        return;
 	    }
 
-	    contactList.sort(
-	            Comparator.comparing(ContactPerson::getFirstName, String.CASE_INSENSITIVE_ORDER)
-	                      .thenComparing(ContactPerson::getLastName, String.CASE_INSENSITIVE_ORDER)
-	    );
+	    contactList.sort(Comparator.comparing(ContactPerson::getZipCode));
 
-	    System.out.println("\nContacts sorted alphabetically by name:");
-	    contactList.forEach(System.out::println); // uses toString()
+	    System.out.println("\nContacts sorted by Zip:");
+	    contactList.forEach(System.out::println);
 	}
 }

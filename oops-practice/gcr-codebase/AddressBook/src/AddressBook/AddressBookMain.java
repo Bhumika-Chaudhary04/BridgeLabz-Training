@@ -25,6 +25,9 @@ public class AddressBookMain {
 			System.out.println("11. Count Persons by City");
 			System.out.println("12. Count Persons by State");
 			System.out.println("13. Sort Contacts by Name");
+			System.out.println("14. Sort Contacts by City");
+			System.out.println("15. Sort Contacts by State");
+			System.out.println("16. Sort Contacts by Zip");
 			System.out.println("0. Exit");
 
 			System.out.print("Enter choice: ");
@@ -60,6 +63,18 @@ public class AddressBookMain {
 			    System.out.print("Enter Address Book Name: ");
 			    String bookName = sc.nextLine();
 			    service.sortAddressBookByName(bookName);
+			    break;
+			case 14:
+			    System.out.print("Enter Address Book Name: ");
+			    service.sortByCity(sc.nextLine());
+			    break;
+			case 15:
+			    System.out.print("Enter Address Book Name: ");
+			    service.sortByState(sc.nextLine());
+			    break;
+			case 16:
+			    System.out.print("Enter Address Book Name: ");
+			    service.sortByZip(sc.nextLine());
 			    break;
 
 			case 0:

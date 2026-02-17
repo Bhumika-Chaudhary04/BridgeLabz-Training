@@ -158,4 +158,28 @@ public class AddressBookService {
 
 	    book.sortContactsByName();
 	}
+	public void sortByCity(String addressBookName) {
+	    AddressBook book = addressBookMap.get(addressBookName);
+	    if (book == null) {
+	        System.out.println("Address Book not found.");
+	        return;
+	    }
+	    book.sortByCity();
+	}
+	public void sortByState(String addressBookName) {
+	    AddressBook book = addressBookMap.get(addressBookName);
+	    if (book == null) {
+	        System.out.println("Address Book not found.");
+	        return;
+	    }
+	    book.sortByState();
+	}
+	public void sortByZip(String addressBookName) {
+	    AddressBook book = addressBookMap.get(addressBookName);
+	    if (book == null) {
+	        System.out.println("Address Book not found.");
+	        return;
+	    }
+	    book.sortByZip();
+	}
 }

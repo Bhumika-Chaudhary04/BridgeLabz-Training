@@ -1374,6 +1374,22 @@ Data Export Feature
 
 ---
 
+### Day 49 (17-02-2026) - Address Book
+**(`oops-practice`)**
+
+🔹Refactored AddressBook gcr-codebase under oops-practice and implemented new use cases :
+- UC-11: Sort Contacts by Name
+- UC-12: Sort Contacts by City, State, and Zip
+- UC-13: Read/Write Address Book using File IO
+- UC-14: Read/Write Address Book as CSV
+- UC-15: Read/Write Address Book as JSON
+- AddressBook Solution
+
+**Code Links**
+-[AddressBook](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/AddressBook)
+
+---
+
 
 
 ## Purpose of This Repository

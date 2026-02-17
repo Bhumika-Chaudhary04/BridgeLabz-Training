@@ -1,5 +1,5 @@
 package AddressBook;
-
+import java.util.Objects;
 //contact person class
 public class ContactPerson {
 	private String firstName;
@@ -81,7 +81,23 @@ public class ContactPerson {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+	
+	//UC7: Override equals() for duplicate check
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof ContactPerson)) return false;
+        ContactPerson other = (ContactPerson) obj;
+        return firstName.equalsIgnoreCase(other.firstName)
+                && lastName.equalsIgnoreCase(other.lastName);
+    }
+    
+    //hashCode must be overridden with equals
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstName.toLowerCase(), lastName.toLowerCase());
+    }
+    
 	// method to display contact details of a person
 	public void displayContact() {
 		System.out.println("First Name: " + firstName);
@@ -94,5 +110,7 @@ public class ContactPerson {
 		System.out.println("Email: " + email);
 		System.out.println("\n");
 	}
+	
+	
 
 }

@@ -24,6 +24,7 @@ public class AddressBookMain {
 			System.out.println("10. View Persons by State");
 			System.out.println("11. Count Persons by City");
 			System.out.println("12. Count Persons by State");
+			System.out.println("13. Sort Contacts by Name");
 			System.out.println("0. Exit");
 
 			System.out.print("Enter choice: ");
@@ -54,6 +55,11 @@ public class AddressBookMain {
 
 			case 12:
 			    service.countPersonsByState();
+			    break;
+			case 13:
+			    System.out.print("Enter Address Book Name: ");
+			    String bookName = sc.nextLine();
+			    service.sortAddressBookByName(bookName);
 			    break;
 
 			case 0:

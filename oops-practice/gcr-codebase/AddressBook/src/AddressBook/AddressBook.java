@@ -54,4 +54,18 @@ public class AddressBook {
 	public ArrayList<ContactPerson> getContactList() {
 	    return contactList;
 	}
+	public void sortContactsByName() {
+	    if (contactList.isEmpty()) {
+	        System.out.println("No contacts to sort.");
+	        return;
+	    }
+
+	    contactList.sort(
+	            Comparator.comparing(ContactPerson::getFirstName, String.CASE_INSENSITIVE_ORDER)
+	                      .thenComparing(ContactPerson::getLastName, String.CASE_INSENSITIVE_ORDER)
+	    );
+
+	    System.out.println("\nContacts sorted alphabetically by name:");
+	    contactList.forEach(System.out::println); // uses toString()
+	}
 }

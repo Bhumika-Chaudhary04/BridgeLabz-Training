@@ -148,4 +148,14 @@ public class AddressBookService {
 	    stateCountMap.forEach((state, count) ->
 	            System.out.println(state + " : " + count));
 	}
+	public void sortAddressBookByName(String addressBookName) {
+	    AddressBook book = addressBookMap.get(addressBookName);
+
+	    if (book == null) {
+	        System.out.println("Address Book not found.");
+	        return;
+	    }
+
+	    book.sortContactsByName();
+	}
 }

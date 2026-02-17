@@ -110,6 +110,17 @@ public class ContactPerson {
 		System.out.println("Email: " + email);
 		System.out.println("\n");
 	}
+	@Override
+	public String toString() {
+	    return "ContactPerson {" +
+	            "First Name='" + firstName + '\'' +
+	            ", Last Name='" + lastName + '\'' +
+	            ", City='" + city + '\'' +
+	            ", State='" + state + '\'' +
+	            ", Phone='" + phoneNumber + '\'' +
+	            ", Email='" + email + '\'' +
+	            '}';
+	}
 	
 	
 

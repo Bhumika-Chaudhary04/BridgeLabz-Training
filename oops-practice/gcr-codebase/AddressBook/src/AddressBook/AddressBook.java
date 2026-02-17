@@ -51,4 +51,7 @@ public class AddressBook {
 			person.displayContact();
 		}
 	}
+	public ArrayList<ContactPerson> getContactList() {
+	    return contactList;
+	}
 }

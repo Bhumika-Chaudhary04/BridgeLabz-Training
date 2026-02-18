@@ -1390,6 +1390,17 @@ Data Export Feature
 
 ---
 
+### Day 50 (18-02-2026) - RotateLinkedList
+**(`dsa-practice`)**
+
+🔹Rotate Linked List
+- Make the list circular, find the new tail at (length − k % length) position, break the circle, and return the next node as the new head.
+
+**Code Links**
+-[RotateLinkedList](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/RotateLinkedList.java)
+
+---
+
 
 
 ## Purpose of This Repository

@@ -1401,7 +1401,20 @@ Data Export Feature
 
 ---
 
+### Day 51 (19-02-2026) - Leetcode
+**(`dsa-practice`)**
 
+🔹Longest Substring Without Repeating Characters
+- Use a sliding window: expand the right pointer, and whenever a character repeats, shrink from the left until all characters in the window are unique, tracking the maximum length. 
+
+🔹Product Of Array ExceptSelf
+- For each index, multiply the product of all elements to its left and the product of all elements to its right (using prefix and suffix products) without using division.
+
+**Code Links**
+- [ProductOfArrayExceptSelf](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/ProductOfArrayExceptSelf.java)
+- [LongestSubstringWithoutRepeating](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/LongestSubstringWithoutRepeating.java)
+
+---
 
 ## Purpose of This Repository
 - Maintain a structured learning record

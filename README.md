@@ -1416,6 +1416,20 @@ Data Export Feature
 
 ---
 
+### Day 52 (20-02-2026) - Leetcode
+**(`dsa-practice`)**
+
+🔹Maximum Points From Cards
+- Use a sliding window technique: instead of picking k cards from the start or end individually, find the minimum sum of a subarray of length n-k (the cards you don’t pick) and subtract it from the total sum to get the maximum points.
+
+🔹Number of Ways to Rearrange Sticks with K Visible Sticks
+- Use dynamic programming: dp[n][k] = dp[n-1][k-1] + (n-1) * dp[n-1][k]
+- Two cases: tallest stick is first (visible) or not first (hidden). Use modulo 10^9+7.
+
+**Code Links**
+- [MaximumPointsFromCards](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/MaximumPointsFromCards.java)
+- [Number of Ways to Rearrange Sticks with K Visible Sticks](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/RearrangeSticks.java)
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

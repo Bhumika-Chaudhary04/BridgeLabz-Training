@@ -1430,6 +1430,27 @@ Data Export Feature
 - [MaximumPointsFromCards](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/MaximumPointsFromCards.java)
 - [Number of Ways to Rearrange Sticks with K Visible Sticks](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/RearrangeSticks.java)
 
+---
+
+### Day 53 (21-02-2026) - Leetcode  
+**(`dsa-practice`)**
+
+🔹Happy Number  
+- Use a HashSet to detect cycles while repeatedly replacing the number with the sum of the squares of its digits.  
+- If the number becomes 1 → it is a happy number.  
+- If a number repeats → cycle detected → not a happy number.
+
+🔹String Compression  
+- Use a two-pointer/counting approach to compress consecutive repeating characters.  
+- Append the character and its frequency (only if frequency > 1).  
+- Modify the original array in-place and return the new length.
+
+**Code Links**
+- [HappyNumber](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/HappyNumber.java)
+- [StringCompression](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/StringCompression.java)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals
@@ -1437,6 +1458,7 @@ Data Export Feature
 - Prepare for technical assessments and interviews
 
 ---
+
 
 
 ## 👩‍💻 Author

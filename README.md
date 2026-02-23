@@ -1451,6 +1451,29 @@ Data Export Feature
 
 ---
 
+### Day 54 (23-02-2026) - Leetcode  
+**(`dsa-practice`)**
+
+🔹Gas Station  
+- Use a greedy approach to determine the starting station.  
+- First check if total gas is less than total cost → if yes, return -1.  
+- Traverse once while maintaining current gas balance.  
+- If current gas becomes negative, reset start index to next station.  
+
+🔹Find Median from Data Stream  
+- Use two heaps (Priority Queues):  
+  - Max Heap → stores smaller half of numbers  
+  - Min Heap → stores larger half of numbers  
+- Balance both heaps after every insertion.  
+- If total count is even → median is average of two heap tops.  
+- If odd → median is top of max heap.  
+
+**Code Links**
+- [GasStation](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/GasStation.java)
+- [MedianFinder](https://github.com/Bhumika-Chaudhary04/BridgeLabz-Training/blob/dsa-practice/dsa-practice/leet-code-codebase/MedianFinder.java)
+
+---
+
 ## Purpose of This Repository
 - Maintain a structured learning record
 - Strengthen Core Java fundamentals

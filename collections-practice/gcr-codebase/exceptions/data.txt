@@ -1,0 +1,19 @@
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables computers to learn from data and improve their performance automatically without being explicitly programmed.
+
+Simple definition (easy to remember):
+
+Machine Learning is a technique where machines learn patterns from data and make decisions or predictions on their own.
+
+Technical definition:
+
+Machine Learning is the study of algorithms that allow systems to learn from experience (data) and improve their accuracy over time.
+
+Example:
+
+Email spam filter learns which emails are spam by analyzing past emails.
+
+Netflix/YouTube recommendations learn from your watch history.
+
+Face recognition systems learn facial features from images.
+
+Key idea:
